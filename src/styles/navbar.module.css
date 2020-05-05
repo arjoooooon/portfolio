@@ -1,0 +1,25 @@
+.container {
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-container {
+    list-style: none;
+    display: flex;
+    flex-direction: horizontal;
+    margin-top: 0;
+    margin: 2em 0;
+}
+
+.nav-item {
+    margin-right: 3em;
+    color: #ffffff;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    color: #4990E2;
+}
