@@ -1,16 +1,21 @@
-.image{
+.container{
+    margin-bottom: 4em;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-container{
     display: inline-block;
     vertical-align: top;
 }
 
-.container{
-    margin-bottom: 4em;
-    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-}
-
 .wrapper{
-    display: inline-block;
     margin-left: 2em;
+    display: inline-block;
+    width: 40vw;
 }
 
 .tech-item {
@@ -36,4 +41,32 @@
     width: 40vw;
     line-height: 2em;
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.list{
+    width: 60vw;
+}
+
+@media screen and (max-width: 480px){
+    .img-container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    .description{
+        width: 80vw;
+    }
+
+    .title{
+        margin-bottom: 10px;
+    }
+
+    .container{
+        margin-bottom: 5em;
+    }
+
+    .wrapper {
+        width: 80vw;
+        margin: 0;
+    }
 }

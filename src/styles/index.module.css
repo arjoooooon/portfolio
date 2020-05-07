@@ -37,3 +37,9 @@
     text-decoration: none;
     color: #4990E2;
 }
+
+@media screen and (max-width: 480px){
+    .description-text{
+        width: 80vw;
+    }
+}

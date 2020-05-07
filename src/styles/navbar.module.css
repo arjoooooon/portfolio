@@ -1,18 +1,21 @@
 .container {
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     width: 100vw;
 }
 
 .nav-container {
     list-style: none;
     display: flex;
-    flex-direction: horizontal;
-    margin-top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 2em 0;
+    width: 80vw;
 }
 
 .nav-item {
-    margin-right: 3em;
     color: #ffffff;
+    margin-right: 3em;
+    margin-bottom: 1em;
 }
 
 .link {
@@ -22,4 +25,11 @@
 
 .link:hover{
     color: #4990E2;
+}
+
+@media screen and (max-width: 480px){
+    .nav-item {
+        margin-right: 1em;
+    }
+
 }
