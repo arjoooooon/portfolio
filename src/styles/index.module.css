@@ -40,6 +40,10 @@
 
 @media screen and (max-width: 480px){
     .description-text{
-        width: 80vw;
+        width: 90vw;
+    }
+
+    .description-header{
+        margin: 1em 0 1em 0;
     }
 }
