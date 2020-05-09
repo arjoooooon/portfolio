@@ -48,31 +48,35 @@
 }
 
 @media screen and (max-width: 480px){
+    .container{
+        margin-bottom: 7em;
+    }
+    
     .img-container{
         display: flex;
         justify-content: center;
         margin-bottom: 1em;
     }
     .description{
-        width: 90vw;
-        margin-left: 5vw;
+        width: 80vw;
+        margin-left: 9vw;
     }
 
     .link{
-        margin-left: 8vw;
+        margin-left: 9vw;
     }
 
     .title{
         margin-bottom: 10px;
-        margin-left: 8vw;
+        margin-left: 9vw;
     }
-
-    .container{
-        margin-bottom: 5em;
-    }
-
+    
     .wrapper {
         width: 100vw;
         margin: 0;
+    }
+
+    .list{
+        margin-left: 3vw;
     }
 }
