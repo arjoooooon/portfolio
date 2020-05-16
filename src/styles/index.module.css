@@ -25,6 +25,8 @@
     font-size: 1.2em;
     line-height: 2em;
     font-family: 'proxima nova lighter';
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .description-header {

@@ -41,6 +41,8 @@
     color: white;
     width: 40vw;
     line-height: 2em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .list{

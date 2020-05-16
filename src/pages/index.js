@@ -16,7 +16,7 @@ const App = () => {
             <div className={styles.descriptionContainer}>
                 <h1 className={styles.descriptionHeader}>Arjun Taneja</h1>
                 <img src={muguri} alt='face' width={115} height={115} className={styles.descriptionImage}/>
-                <span className={styles.descriptionText}>
+                <div className={styles.descriptionText}>
                     Hi there! Thank you for visiting my site. I am Arjun, a high school student at UWCSEA in Singapore. I am a curious 
                     person and I like to build things using new technology that may ultimately help people.<br/><br/>
 
@@ -40,7 +40,7 @@ const App = () => {
                     to="/experience" className={styles.link}>Kanji Trainer</Link>.<br/><br/>
 
                     Thank you or reading and feel free to drop me a line at hi @arjuntaneja.com
-                </span>
+                </div>
             </div>
             <Footer />
         </div>
