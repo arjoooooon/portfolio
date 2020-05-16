@@ -15,7 +15,7 @@ const Project = props => {
     return (
         <div className={styles.container}>
             <div className={styles.imgContainer}>
-                <img src={props.uri} alt={props.title} className={styles.image} width={313} height={157}/>
+                <img src={props.uri} alt={props.title} width={313} height={157}/>
             </div>
             <div className={styles.wrapper}>
                 <h1 className={styles.title}>{props.title}</h1>

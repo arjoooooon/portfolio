@@ -2,3 +2,9 @@
   font-family: 'proxima nova';
   src: local('proxima nova'), url(../assets/Fonts/proxima_nova.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'proxima nova lighter';
+  src: local('proxima nova lighter'), url(../assets/Fonts/proxima_nova.ttf) format('truetype');
+  font-weight: lighter;
+}

@@ -50,11 +50,11 @@
 @media screen and (max-width: 480px){
     .container{
         margin-bottom: 7em;
+        display: block;
     }
     
     .img-container{
-        display: flex;
-        justify-content: center;
+        margin-left: 9vw; 
         margin-bottom: 1em;
     }
     .description{
