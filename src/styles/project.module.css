@@ -5,6 +5,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 }
 
 .img-container{

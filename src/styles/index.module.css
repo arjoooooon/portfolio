@@ -7,6 +7,8 @@
     min-height: 100vh;
     width: 100vw;
     overflow-x: hidden!important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 }
 
 .description-container {
@@ -19,7 +21,6 @@
 
 .description-text {
     color: white;
-    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     width: 50vw;
     font-size: 1.2em;
     line-height: 2em;
