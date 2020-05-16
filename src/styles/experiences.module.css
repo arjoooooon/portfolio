@@ -1,0 +1,66 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    overflow-x:hidden!important;
+    background-color: black;
+    font-family: 'proxima nova';
+}
+
+.title{
+    color: white;
+    margin: 1.5em 0 1em 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.menu-wrapper{
+    width: 41vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10vh;
+}
+
+.menu-item{
+    background-color: white;
+    width: 20vw;
+    color: black;
+    margin: 2px 2px;
+    padding: 2vh 0;
+    text-align: center;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.active-menu-item{
+    background-color: #4990E2;
+    width: 20vw;
+    color: white;
+    margin: 2px 2px;
+    padding: 2vh 0;
+    text-align: center;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.menu-item:hover{
+    background-color: #cccccc;
+}
