@@ -4,6 +4,8 @@ import { Link } from 'gatsby'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
 import muguri from '../assets/mugshot.png'
+import '../assets/Fonts/proxima_nova.ttf'
+import '../styles/index.css'
 
 // 115 115
 
