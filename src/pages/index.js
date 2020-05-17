@@ -37,7 +37,7 @@ const App = () => {
                     I enjoy public speaking, <Link to="/blog" className={styles.link}>writing</Link>, learning new languages and doing what I can to help people and the environment. As 
                     the leader of my computer science club, I teach a class of 20 + G9-12 students in programming fundamentals in Java. My 
                     love for languages (Hindi, Spanish and Japanese so far) inspired me to create a self learning app called the <Link 
-                    to="/experience" className={styles.link}>Kanji Trainer</Link>.<br/><br/>
+                    to="/experiences" className={styles.link}>Kanji Trainer</Link>.<br/><br/>
 
                     Thank you or reading and feel free to drop me a line at hi @arjuntaneja.com
                 </div>

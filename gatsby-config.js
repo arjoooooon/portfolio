@@ -11,6 +11,8 @@ module.exports = {
             resolve: `gatsby-plugin-s3`,
             options: {
                 bucketName: "www.arjuntaneja.com",
+                protocol: "https",
+                hostname: "www.arjuntaneja.com"
             },
         },
     ],
