@@ -15,5 +15,6 @@ module.exports = {
                 hostname: "www.arjuntaneja.com"
             },
         },
+        `gatsby-plugin-react-helmet`
     ],
 }

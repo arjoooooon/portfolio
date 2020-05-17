@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import styles from '../styles/index.module.css';
 import { Link } from 'gatsby'
 import Navbar from '../components/Navbar';
@@ -12,6 +13,11 @@ import '../styles/index.css'
 const App = () => {
     return (
         <div className={styles.container}>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Arjun Taneja</title>
+            </Helmet>
+
             <Navbar />
             <div className={styles.descriptionContainer}>
                 <h1 className={styles.descriptionHeader}>Arjun Taneja</h1>
@@ -20,7 +26,7 @@ const App = () => {
                     Hi there! Thank you for visiting my site. I am Arjun, a high school student at UWCSEA in Singapore. I am a curious 
                     person and I like to build things using new technology that may ultimately help people.<br/><br/>
 
-                    Some of the things I have been up to recently include co-founding the <a href="www.sgsmartbin.com" target="_blank"
+                    Some of the things I have been up to recently include co-founding the <a href="http://www.sgsmartbin.com" target="_blank"
                     className={styles.link}>Smartbin</a> – a sustainable recycling solution. 
                     We were so excited when the project got featured in the <a 
                     href = "https://www.blog.google/around-the-globe/google-asia/singapore-students-using-cloud-smarter-recycling/"
@@ -39,7 +45,7 @@ const App = () => {
                     love for languages (Hindi, Spanish and Japanese so far) inspired me to create a self learning app called the <Link 
                     to="/experiences" className={styles.link}>Kanji Trainer</Link>.<br/><br/>
 
-                    Thank you or reading and feel free to drop me a line at <a href="#" className={styles.link}>hi@arjuntaneja.com</a>.
+                    Thank you or reading and feel free to drop me a line at <a href="#" className={styles.link}>hello@arjuntaneja.com</a>.
                 </div>
             </div>
             <Footer />
