@@ -2,24 +2,36 @@ import React,{ useState} from 'react';
 import Navbar from '../components/Navbar';
 import styles from '../styles/experiences.module.css';
 import Experience from '../components/Experience';
-import blank from '../assets/blank.png';
-import devfest from '../assets/devfest.png';
 import Footer from '../components/Footer.js';
+
+//-------------------IMAGE IMPORTS----------------------------
+import devfest from '../assets/devfest.png';
+import blank from '../assets/blank.png';
+import smartbindiagram from '../assets/smartbindiagram.png';
+import agritech from '../assets/agritech.png';
+//-------------------IMAGE IMPORTS----------------------------
 
 let builderText = [
     {
         align: 'left',
-        uri: blank,
-        title: 'Smart Bin',
+        uri: smartbindiagram,
+        title: 'Co-founder | Smart Bin',
         subtitle: '2019-2020',
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        text: 'Co-founded SmartBin with the goal of finding a solution to waste management. Solving big challenges is always something we love. Living in Singapore, we read a lot about the government efforts on zero waste to build a sustainable, resource-efficient and climate-resilient nation.',
     },
     {
         align: 'right',
         uri: devfest,
-        title: 'DevFest',
+        title: 'Innovation Participant | Google Devfest',
         subtitle: '2019-2020',
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        text: 'As co founders of sgsmartbin.com, we were invited to participate amongst a select group of technology innovators to present our innovation with the developer community in Singapore.'
+    },
+    {
+        align: 'left',
+        uri: agritech,
+        title: 'Innovation Lab Intern | Palo IT',
+        subtitle: '2019-2020',
+        text: 'I am happy to have been an intern at Palo IT, a well known tech company in Asia and Europe which amongst otter things builds tech for sustainability. I was really fortunate to secure an internship with them where I got a chance to be involved in an agritech project to automate a greenhouse environment in an ethical farming community in Cambodia, paving the way for sustainable agriculture.  My work responsibilities included working on the backend and deployment script for an IoT system of sensors that automate the humidification and cooling of greenhouses using AI.',
     }
 ]
 let leaderText = [

@@ -25,7 +25,7 @@ const Experience = props => {
                 <a className={styles.link}>Read More</a>
             </div>
             <div className={styles.imgContainer}>
-                <img src={props.uri} alt={props.title} width={470} height={236}/>
+                <img src={props.uri} alt={props.title} width={447} height={241}/>
             </div>
         </div>
     );

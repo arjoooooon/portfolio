@@ -35,11 +35,11 @@ const App = () => {
                     for farming in remote areas and who knows - even on another planet?<br/><br/>
 
                     I enjoy public speaking, <Link to="/blog" className={styles.link}>writing</Link>, learning new languages and doing what I can to help people and the environment. As 
-                    the leader of my computer science club, I teach a class of 20 + G9-12 students in programming fundamentals in Java. My 
+                    the leader of my computer science club, I teach a class of 20+ G9-12 students in programming fundamentals in Java. My 
                     love for languages (Hindi, Spanish and Japanese so far) inspired me to create a self learning app called the <Link 
                     to="/experiences" className={styles.link}>Kanji Trainer</Link>.<br/><br/>
 
-                    Thank you or reading and feel free to drop me a line at hi @arjuntaneja.com
+                    Thank you or reading and feel free to drop me a line at <a href="#" className={styles.link}>hi@arjuntaneja.com</a>.
                 </div>
             </div>
             <Footer />
