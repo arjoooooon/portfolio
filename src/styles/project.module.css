@@ -24,11 +24,21 @@
     margin-top: 10px;
     color: #aaaaaa;
 }
+.tech-item::selection{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
 
 .link {
     color:#4990E2;
     text-decoration: none;
     margin-bottom: 4em;
+}
+.link::selection{
+    background: #4990E2;
+    color: yellow;
 }
 
 .title { 
@@ -36,13 +46,19 @@
     margin: 0;
     margin-bottom: 4px;
 }
+.title::selection{
+    background: #4990E2;
+}
 
 .description{
     color: white;
     width: 40vw;
-    line-height: 2em;
+    line-height: 1.8em;
     text-align: justify;
     text-justify: inter-word;
+}
+.description::selection{
+    background: #4990E2;
 }
 
 .list{

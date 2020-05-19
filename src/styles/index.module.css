@@ -11,6 +11,7 @@
     font-weight: 100;
 }
 
+
 .description-container {
     width: 100vw;
     display: flex;
@@ -23,15 +24,22 @@
     color: white;
     width: 50vw;
     font-size: 1.2em;
-    line-height: 2em;
+    line-height: 1.8em;
     font-family: 'proxima nova lighter';
     text-align: justify;
     text-justify: inter-word;
 }
 
+.description-text::selection{
+    background: #4990E2;
+}
+
 .description-header {
     color: white;
     margin: 3em 0 0.5em 0;
+}
+.description-header::selection{
+    background: #4990E2;
 }
 
 .description-image {
@@ -41,6 +49,11 @@
 .link {
     text-decoration: none;
     color: #4990E2;
+}
+
+.link::selection{
+    background: #4990E2;
+    color: yellow;
 }
 
 @media screen and (max-width: 480px){
