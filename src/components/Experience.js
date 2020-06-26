@@ -1,7 +1,10 @@
 import React from 'react';
+import useWindowDimensions from '../hooks/useWindowDimensions';
 import styles from '../styles/experience.module.css';
 
 const Experience = props => {
+    const { width, height } = useWindowDimensions();
+
     const leftExp = (
         <div>
             <div className={styles.imgContainer}>
@@ -18,7 +21,7 @@ const Experience = props => {
 
     const rightExp = (
         <div>
-            <div className={styles.content} style={{textAlign: 'right'}}>
+            <div className={styles.rightContent}>
                 <h1 className={styles.title}>{props.title}</h1>
                 <h3 className={styles.subtitle}>{props.subtitle}</h3>
                 <p className={styles.description}>{props.children}</p>
@@ -31,7 +34,7 @@ const Experience = props => {
     );
     return (
         <div className={styles.wrapper}>
-            {(props.align==='right')? leftExp : rightExp}
+            {(width > 480)? ((props.align==='right')? leftExp : rightExp) : leftExp}
         </div>
     )
 }

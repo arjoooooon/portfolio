@@ -64,3 +64,12 @@
 .menu-item:hover{
     background-color: #cccccc;
 }
+
+@media screen and (max-width: 480px){
+    .menu-item {
+        width: 40vw;
+    }
+    .active-menu-item {
+        width: 40vw;
+    }
+}
