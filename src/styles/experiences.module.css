@@ -67,9 +67,12 @@
 
 @media screen and (max-width: 480px){
     .menu-item {
-        width: 40vw;
+        width: 70vw;
     }
     .active-menu-item {
-        width: 40vw;
+        width: 70vw;
+    }
+    .menu-wrapper{
+        width: 71vw;
     }
 }
