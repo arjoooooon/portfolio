@@ -1,11 +1,37 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import styles from '../styles/contact.module.css';
+import instagram from '../assets/SVG/instagram.svg';
+import linkedin from '../assets/SVG/linkedin.svg';
+import twitter from '../assets/SVG/twitter.svg';
+import github from '../assets/SVG/github.svg';
+import email from '../assets/SVG/email.svg';
 
 const Contact = () => {
     return (
         <div className={styles.container}>
             <Navbar />
+            <div className={styles.contactContainer}>
+                <a href="mailto:hello@arjuntaneja.com" target="_blank" className={styles.mailLink}>hello@arjuntaneja.com</a>
+                <div className={styles.iconContainer}>
+                    <a href="https://www.linkedin.com/in/arjun-taneja-801012a2/" target="_blank" className={styles.iconLink}>
+                        <img src={linkedin} className={styles.icon} alt="linkedin" />
+                    </a>
+                    <a href="https://github.com/arjoooooon" target="_blank" className={styles.iconLink}>
+                        <img src={github} className={styles.icon} alt="github" />
+                    </a>
+                    <a href="https://www.instagram.com/arjoooooon/" target="_blank" className={styles.iconLink}>
+                        <img src={instagram} className={styles.icon} alt="instagram" />
+                    </a>
+                    <a href="https://twitter.com/badpotatoman" target="_blank" className={styles.iconLink}>
+                        <img src={twitter} className={styles.icon} alt="twitter" />
+                    </a>
+                    <a href="mailto:hello@arjuntaneja.com" target="_blank" className={styles.iconLink}>
+                        <img src={email} className={styles.icon} alt="email" />
+                    </a>
+                </div>
+
+            </div>
         </div>
     );
 }

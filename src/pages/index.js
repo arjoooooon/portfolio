@@ -45,7 +45,8 @@ const App = () => {
                     love for languages (Hindi, Spanish and Japanese so far) inspired me to create a self learning app called the <Link 
                     to="/experiences" className={styles.link}>Kanji Trainer</Link>.<br/><br/>
 
-                    Thank you or reading and feel free to drop me a line at <a href="/" className={styles.link}>hello@arjuntaneja.com</a>.
+                    Thank you or reading and feel free to drop me a line at <a href="mailto:hello@arjuntaneja.com" target="_blank" 
+                    className={styles.link}>hello@arjuntaneja.com</a>.
                 </div>
             </div>
             <Footer />
