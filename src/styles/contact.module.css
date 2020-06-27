@@ -99,11 +99,11 @@
         margin: 5px;
     }
     .icon-link:hover{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
     .icon-link:hover > img.icon{
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
     }
 }
