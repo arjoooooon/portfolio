@@ -80,3 +80,30 @@
 .mail-link:hover::after{
     height: 110%;
 }
+
+@media screen and (max-width: 480px){
+    .contact-container{
+        font-size: 2em;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .icon-link{
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+    .icon-container{
+        justify-content: space-evenly;
+    }
+    .icon-link:hover{
+        width: 40px;
+        height: 40px;
+        margin: 5px
+    }
+    .icon-link:hover > img.icon{
+        width: 20px;
+        height: 20px;
+    }
+}
