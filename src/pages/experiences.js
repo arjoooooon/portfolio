@@ -31,7 +31,7 @@ let builderText = [
         uri: agritech,
         title: 'Innovation Lab Intern | Palo IT',
         subtitle: '2019-2020',
-        text: 'I am happy to have been an intern at Palo IT, a well known tech company in Asia and Europe which amongst otter things builds tech for sustainability. I was really fortunate to secure an internship with them where I got a chance to be involved in an agritech project to automate a greenhouse environment in an ethical farming community in Cambodia, paving the way for sustainable agriculture.  My work responsibilities included working on the backend and deployment script for an IoT system of sensors that automate the humidification and cooling of greenhouses using AI.',
+        text: 'I am happy to have been an intern at Palo IT, a well known tech company in Asia and Europe which amongst otter things builds tech for sustainability. I was really fortunate to secure an internship with them where I got a chance to be involved in an agritech project to automate a greenhouse environment in an ethical farming community in Cambodia, paving the way for sustainable agriculture.',
     }
 ]
 let leaderText = [

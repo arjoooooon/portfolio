@@ -21,9 +21,9 @@
 .icon-container{
     display: flex;
     flex-direction: row;
-    width: 50vw;
+    width: 30vw;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     height: 80px;
     margin-top: 5vh;
@@ -74,7 +74,7 @@
     height: 5%;
     background-color: #4990E2;
     z-index: -1;
-    transition: height 0.5s;
+    transition: height 0.4s;
 }
 
 .mail-link:hover::after{
