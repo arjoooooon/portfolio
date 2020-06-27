@@ -85,6 +85,10 @@
     .contact-container{
         font-size: 2em;
     }
+    .icon-container{
+        width: 70vw;
+        margin-top: 3vh;
+    }
     .icon{
         width: 20px;
         height: 20px;
@@ -94,16 +98,12 @@
         height: 40px;
         margin: 5px;
     }
-    .icon-container{
-        justify-content: space-evenly;
-    }
     .icon-link:hover{
-        width: 40px;
-        height: 40px;
-        margin: 5px
+        width: 30px;
+        height: 30px;
     }
     .icon-link:hover > img.icon{
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
     }
 }
