@@ -1,0 +1,40 @@
+.wrapper {
+    color: white;
+    font-family: 'proxima nova thin';
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+}
+
+.thumbnail{
+    width: 448px;
+    height: 250px;
+}
+.date{
+    color: #666666;
+    font-size: 0.8em;
+    margin-top: 2vh;
+}
+
+.title{
+    font-size: 1.5em;
+    margin: 2vh 0;
+}
+
+.label{
+    color: #4990E2;
+    font-size: 0.8em;
+    margin-bottom: 4vh;
+    font-family: 'proxima nova'
+}
+
+.description{
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.read {
+    color: #4990E2;
+    font-size: 0.9em;
+}

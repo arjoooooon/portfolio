@@ -25,7 +25,7 @@ const Projects  = () => {
                     of their strokes.
                 </Project>
 
-                <Project className={styles.project} title="Kanji Trainer" uri={kanjitrainer} link="sgsmartbin.com" techs={[
+                <Project className={styles.project} title="Kanji Trainer" uri={kanjitrainer} link="" techs={[
                     'Mobile Application for iOS & Android (React native)',
                     'AI - powered (Tensorflow, Keras)',
                     'Database and API oriented (Amazon Web Services) '
@@ -33,7 +33,7 @@ const Projects  = () => {
                     An AI-powered IOS/Android application that allows users to learn how to write Japanese characters (Kanji). Users can use the App to draw characters using their finger, and the App gives real time feedback on the accuracy of their strokes
                 </Project>
 
-                <Project className={styles.project} title="Homely" uri={homely} link="http://homely.com" techs={[
+                <Project className={styles.project} title="Homely" uri={homely} link="https://stonks-d9988.firebaseapp.com/" techs={[
                     'Web application (React)',
                     'Database and Authentication (Firebase)',
                     'Geolocational data representation (Leaflet.js)'
@@ -41,7 +41,7 @@ const Projects  = () => {
                     A web application that connects customers with vendors. During the coronavirus, consumers often go out to shop only to realize that the item they desire is out of stock. This Application allows stores to list their products, so that consumers can easily find a particular item and go shopping for it in order to minimize the risk of infection.
                 </Project>
 
-                <Project className={styles.project} title="Simulatio" uri={simulatio} link="https://github.com/arjoooooon" techs={[
+                <Project className={styles.project} title="Simulatio" uri={simulatio} link="https://github.com/arjoooooon/javascript_experiments" techs={[
                     'JavaScript',
                     'p5.js'
                 ]}>
