@@ -13,6 +13,8 @@ const Blog = () => {
         <div className={styles.container}>
             <Helmet>
                 <meta name="description" content="Some of my thoughts and musings on various things" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BSFLBTLG1"></script>
+                <script src="../scripts/gtag.js"></script>
                 <meta name="keywords" content="blog, CAS, NYAA, activities, Kanji Trainer, juggling, ROB, japanese, learning, speaking, leading" />
             </Helmet>
 

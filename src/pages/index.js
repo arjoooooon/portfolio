@@ -18,6 +18,8 @@ const App = () => {
                 <meta name="description" content="Hi! I'm Arjun Taneja, and this is my personal portfolio. 
                 Learn more about projects such as my Smart Bin and Kanji Trainer here!" />
                 <title>Arjun Taneja: tech innovator, speaker, learner</title>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BSFLBTLG1"></script>
+                <script src="../scripts/gtag.js"></script>
                 <meta name="keywords" content="Technology, Speaker, Leader, Student, Learner, Kanji Trainer, Portfolio, Google Blog" />
             </Helmet>
 
