@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import { Helmet } from 'react-helmet';
 import styles from '../styles/contact.module.css';
 import instagram from '../assets/SVG/instagram.svg';
 import linkedin from '../assets/SVG/linkedin.svg';
@@ -11,6 +12,11 @@ const Contact = () => {
     return (
         <div className={styles.container}>
             <Navbar />
+            <Helmet>
+                <meta name="description" content="Feel free to get in touch! I'm open to talking about cool, new ideas––or to just have an interesting conversation." />
+                <meta name="keywords" content="contact, instagram, linkedin, email, twitter, github" />
+
+            </Helmet>
             <div className={styles.contactContainer}>
                 <a href="mailto:hello@arjuntaneja.com" target="_blank" className={styles.mailLink}>hello@arjuntaneja.com</a>
                 <div className={styles.iconContainer}>

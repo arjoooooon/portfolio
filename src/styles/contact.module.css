@@ -107,4 +107,7 @@
         width: 20px;
         height: 20px;
     }
+    .mail-link:hover::after{
+        height: 5%;
+    }
 }

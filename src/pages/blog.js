@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar'
 import styles from '../styles/blog.module.css';
 import BlogPost from '../components/BlogPost';
@@ -10,6 +11,11 @@ import Photo2 from '../assets/Images/Blog_photo2.png';
 const Blog = () => {
     return (
         <div className={styles.container}>
+            <Helmet>
+                <meta name="description" content="Some of my thoughts and musings on various things" />
+                <meta name="keywords" content="blog, CAS, NYAA, activities, Kanji Trainer, juggling, ROB, japanese, learning, speaking, leading" />
+            </Helmet>
+
             <Navbar />
             <div className={styles.centered}>
                 <div className={styles.postContainer}>

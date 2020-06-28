@@ -1,4 +1,5 @@
 import React,{ useState} from 'react';
+import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar';
 import styles from '../styles/experiences.module.css';
 import Experience from '../components/Experience';
@@ -109,6 +110,10 @@ const Experiences = () => {
     ]
     return (
         <div className={styles.container}>
+            <Helmet>
+                <meta name="description" content="A record of my various experiences in High School, and many of my other interests" />
+                <meta name="keywords" contnet="Teaching, MUN, Programming, Computer Science, MUN, Speaking, Japanese, Language learning, Kanji Trainer, ROB" />
+            </Helmet>
             <Navbar />
             <div className={styles.wrapper}>
                 <h1 className={styles.title}>Experiences</h1>

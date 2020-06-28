@@ -15,7 +15,10 @@ const App = () => {
         <div className={styles.container}>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Arjun Taneja</title>
+                <meta name="description" content="Hi! I'm Arjun Taneja, and this is my personal portfolio. 
+                Learn more about projects such as my Smart Bin and Kanji Trainer here!" />
+                <title>Arjun Taneja: tech innovator, speaker, learner</title>
+                <meta name="keywords" content="Technology, Speaker, Leader, Student, Learner, Kanji Trainer, Portfolio, Google Blog" />
             </Helmet>
 
             <Navbar />
