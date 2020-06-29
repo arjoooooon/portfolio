@@ -15,6 +15,14 @@ module.exports = {
                 hostname: "www.arjuntaneja.com"
             },
         },
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: 'G-3BSFLBTLG1',
+                head: true
+
+            }
+        },
         `gatsby-plugin-react-helmet`,
     ],
 }

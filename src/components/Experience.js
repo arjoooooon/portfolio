@@ -2,13 +2,15 @@ import React from 'react';
 import useWindowDimensions from '../hooks/useWindowDimensions';
 import styles from '../styles/experience.module.css';
 
+//0.539
+
 const Experience = props => {
     const { width, height } = useWindowDimensions();
 
     const leftExp = (
-        <div>
+        <div className={styles.contentWrapper}>
             <div className={styles.imgContainer}>
-                <img src={props.uri} alt={props.title} width={470} height={236}/>
+                <img src={props.uri} alt={props.title} className={styles.image}/>
             </div>
             <div className={styles.content}>
                 <h1 className={styles.title}>{props.title}</h1>
