@@ -42,13 +42,13 @@
 
 @media screen and (max-width: 480px){
     .content{
-        display: block;
+        display: inline-block;
         width: 313px;
         text-align: left;
     }
 
     .img-container{
-        display: block;
+        display: inline-block;
     }
 
     .image{

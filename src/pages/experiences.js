@@ -16,9 +16,9 @@ let builderText = [
     {
         align: 'left',
         uri: smartbindiagram,
-        title: 'Co-founder | Smart Bin',
+        title: 'Co-founder | ROB',
         subtitle: '2019-2020',
-        text: 'Co-founded SmartBin with the goal of finding a solution to waste management. Solving big challenges is always something we love. Living in Singapore, we read a lot about the government efforts on zero waste to build a sustainable, resource-efficient and climate-resilient nation.',
+        text: 'Co-founded ROB, The Smart Bin, with the goal of finding a solution to waste management. Solving big challenges is always something we love. Living in Singapore, we read a lot about the government efforts on zero waste to build a sustainable, resource-efficient and climate-resilient nation.',
     },
     {
         align: 'right',
@@ -41,14 +41,14 @@ let leaderText = [
         uri: blank,
         title: 'Art of Computer Science',
         subtitle: '2019-2020',
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        text: "In Grade 11 and 12, I co-led an activity called “The Art of Computer Science”. I taught a class of around 20 students programming fundamentals in Java. Teaching this class was a rewarding experience for me as I learned how to organise and articulate complex concepts in an approachable way.",
     },
     {
         align: 'left',
         uri: blank,
-        title: 'Intel machine learning education program',
+        title: "Comptetitive Programming",
         subtitle: '2019-2020',
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        text: 'I was the leader of my school team in the Singaporean National Olympiad in Informatics (NOI). I organised meetings and training sessions. We learned a lot about complex data structures and algorithms, but more importantly, improved the way in which we approached complex problems.',
     }
 ]
 let speakerText = [
@@ -57,14 +57,14 @@ let speakerText = [
         uri: blank,
         title: 'TedX Talk',
         subtitle: '2019-2020',
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        text: "In 2018 I had the opportunity to deliver a TedX talk on the subject of religion and philosophy. I was thrilled to be on board as it offered a platform for me to communicate my thoughts on a topic that I take great interest in.",
     },
     {
         align: 'right',
         uri: blank,
-        title: 'MUN Conferences',
+        title: 'Model United Nations',
         subtitle: '2019-2020',
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        text: "Over the past few years, I have had the privilege of taking on many roles in my school’s Model United Nations club (debate). I have been a student, learning about the tenets of public speaking; an administrator, organizing conferences and liaising with other schools; and a teacher, teaching students about public speaking principles.",
     }
 ]
 let learnerText = [
@@ -73,14 +73,14 @@ let learnerText = [
         uri: blank,
         title: 'Japanese language',
         subtitle: '2019-2020',
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        text: "Two years ago, out of an interest for anime and for Japanese culture in general, I decided to embark on a Japanese language learning journey. Today, I feel like I have gained a greater appreciation not only of the Japanese language and culture, but also languages in general. It always amazes me how language changes the way that we are able to express ourselves.",
     },
     {
         align: 'left',
         uri: blank,
-        title: 'Instruments',
+        title: 'Music',
         subtitle: '2019-2020',
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        text: "I would say that music has become a large part of how I identify myself. I play two instruments–the piano and the guitar–and I take great pleasure in performing, composing, and listening to music. My favourite genre is Progressive Metal, though I also enjoy listening to Rock, Electronic, and Classical music as well.",
     }
 ]
 
