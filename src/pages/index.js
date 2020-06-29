@@ -47,8 +47,8 @@ const App = () => {
                     technology that used AI to manage a large number of greenhouses automatically with the goal of reducing greenhouse 
                     gas emissions.<br/><br/>
 
-                    I enjoy <Link to="/experiences" className={styles.link}>public speaking</Link>, <Link to="/blog" className={styles.link}>writing</Link>,  
-                    <Link to="/experiences" className={styles.link}>learning new languages</Link> and <Link to="/experiences" className={styles.link}>
+                    I enjoy <Link to="/experiences" className={styles.link}>public speaking</Link>, <Link to="/blog" className={styles.link}>writing</Link>, 
+                     <Link to="/experiences" className={styles.link}> learning new languages</Link> and <Link to="/experiences" className={styles.link}>
                     mentoring</Link> in my areas of expertise. As the leader of my computer science club, I teach a class of 20+ G9-12 students in 
                     programming fundamentals in Java. My love for languages (Hindi, Spanish and Japanese so far) inspired me to create a self learning app 
                     called the <Link to="/experiences" className={styles.link}>Kanji Trainer</Link>.<br/><br/>
