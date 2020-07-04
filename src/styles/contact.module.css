@@ -44,18 +44,21 @@
     width: 30px;
     height: 30px;
     transition: ease 0.1s;
+    backface-visibility: hidden;
 }
 
 .icon-link:hover{
     width: 70px;
     height: 70px;
     margin: -5px;
+    backface-visibility: hidden;
 }
 
 .icon-link:hover > img.icon{
     width: 35px;
     height: 35px;
     margin: -2.5px;
+    backface-visibility: hidden;
 }
 
 .mail-link{

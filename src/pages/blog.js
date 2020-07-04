@@ -7,6 +7,7 @@ import Photo1 from '../assets/Images/Blog_photo1.png';
 import Photo2 from '../assets/Images/Blog_photo2.png';
 import Photo3 from '../assets/Images/Blog_photo3.jpg';
 import Photo4 from '../assets/Images/Blog_photo4.jpg';
+import Photo5 from '../assets/blank.png';
 
 //Width 418 Height 234
 
@@ -41,7 +42,7 @@ const Blog = () => {
                         <BlogPost uri={Photo3} date="January 16, 2020" title='What "The Odyssey" teaches us about identity' label="ACADEMICS | ENGLISH">
                             <i>
                                 "Be guided by the gods. / Now it is time to think of your own country, / if you are fated 
-                                to surviveand reach / your high-roofed house and your forefather's land"
+                                to survive and reach / your high-roofed house and your forefather's land"
                             </i><br/><br/>
                             "The Odyssey" is the story of a man trying to return to his homeland after several years of war, 
                             and navigational incompetence. However, his journey is symbolic of something greater––the 
@@ -65,6 +66,12 @@ const Blog = () => {
                             I definitely had some doubts about how this service would go. Would the people that we would 
                             meet be open to fostering a relationship? Would they enjoy the games that we spent time planning 
                             for them? And most of all, will this be a waste of my Tuesday afternoon?
+                        </BlogPost>
+
+                        <BlogPost uri={Photo5} date="November 18, 2019" title="Some thoughts on the career test" label="ACADEMICS | PSE">
+                            In class, we completed a test that would indicate our strengths and interests, and thus present a 
+                            stream of possible career choices that would work well with our qualities. I personally believe that
+                            these tests are contrived, often telling us what we want to hear. Nevertheless, these are my results:
                         </BlogPost>
                     
                     </div>
