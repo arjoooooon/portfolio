@@ -49,4 +49,19 @@
     .post-container{
         flex-direction: column;
     }
+    
+}
+
+@media screen and (max-width: 480px){
+    .post-container{
+        width: 95vw;
+        align-items: center;
+    }
+    
+    .container-one{
+        justify-content: center;
+    }
+    .container-two{
+        justify-content: center;
+    }
 }
