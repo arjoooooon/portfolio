@@ -10,6 +10,7 @@ import devfest from '../assets/devfest.png';
 import blank from '../assets/blank.png';
 import smartbindiagram from '../assets/smartbindiagram.png';
 import agritech from '../assets/agritech.png';
+import tedtalk from '../assets/Images/tedtalk.jpg'
 //-------------------IMAGE IMPORTS----------------------------
 
 let builderText = [
@@ -54,7 +55,7 @@ let leaderText = [
 let speakerText = [
     {
         align: 'left',
-        uri: blank,
+        uri: tedtalk,
         title: 'TedX Talk',
         subtitle: '2019-2020',
         text: "In 2018 I had the opportunity to deliver a TedX talk on the subject of religion and philosophy. I was thrilled to be on board as it offered a platform for me to communicate my thoughts on a topic that I take great interest in.",
