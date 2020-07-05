@@ -16,7 +16,7 @@ const Experience = props => {
                 <h1 className={styles.title}>{props.title}</h1>
                 <h3 className={styles.subtitle}>{props.subtitle}</h3>
                 <p className={styles.description}>{props.children}</p>
-                <a className={styles.link}>Read More</a>
+                <a className={styles.link} href={props.href} target="_blank" rel="noopener noreferrer">{props.linkText}</a>
             </div>
         </div>
     );
@@ -27,7 +27,7 @@ const Experience = props => {
                 <h1 className={styles.title}>{props.title}</h1>
                 <h3 className={styles.subtitle}>{props.subtitle}</h3>
                 <p className={styles.description}>{props.children}</p>
-                <a className={styles.link}>Read More</a>
+                <a className={styles.link} href={props.href} target="_blank" rel="noopener noreferrer">{props.linkText}</a>
             </div>
             <div className={styles.imgContainer}>
                 <img src={props.uri} alt={props.title} width={447} height={241}/>
