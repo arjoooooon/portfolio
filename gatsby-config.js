@@ -20,9 +20,23 @@ module.exports = {
             options: {
                 trackingId: 'G-3BSFLBTLG1',
                 head: true
-
             }
         },
+        {
+            resolve: `gatsby-plugin-firebase`,
+            options: {
+                credentials: {
+                    apiKey: "AIzaSyAQVNpLk7FCzDKzjJTYKhCLH822sbYVy_w",
+                    authDomain: "arjuntaneja-c9606.firebaseapp.com",
+                    databaseURL: "https://arjuntaneja-c9606.firebaseio.com",
+                    projectId: "arjuntaneja-c9696",
+                    storageBucket: "arjuntaneja-c9606.appspot.com",
+                    messagingSenderId: "536763287823",
+                    appId: "1:536763287823:web:56937ac5f8f392497c567a",
+                    measurementId: "G-PJPN1XBJM2",
+                }
+            }
+        }
         `gatsby-plugin-react-helmet`,
     ],
 }
