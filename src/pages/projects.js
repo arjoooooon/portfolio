@@ -11,15 +11,13 @@ import homely from '../assets/homely.png';
 import shootout from '../assets/shootout.png';
 import simulatio from '../assets/simulatio.png';
 
-
 const Projects  = () => {
+    
     return (
         <div className={styles.container}>
             <Helmet>
                 <meta name="description" content="A collection of fun programming projects and tools that I built" />
                 <meta name="keywords" content="Kanji Trainer, ROB, Simulatio, Github, programming, technology, AI, AWS, Cloud" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BSFLBTLG1"></script>
-                <script src="../scripts/gtag.js"></script>
             </Helmet>
             <Navbar />
             <div className={styles.wrapper}>

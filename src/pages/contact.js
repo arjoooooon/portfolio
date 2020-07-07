@@ -9,14 +9,13 @@ import github from '../assets/SVG/github.svg';
 import email from '../assets/SVG/email.svg';
 
 const Contact = () => {
+    
     return (
         <div className={styles.container}>
             <Navbar />
             <Helmet>
                 <meta name="description" content="Feel free to get in touch! I'm open to talking about cool, new ideas––or to just have an interesting conversation." />
                 <meta name="keywords" content="contact, instagram, linkedin, email, twitter, github" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BSFLBTLG1"></script>
-                <script src="../scripts/gtag.js"></script>
 
             </Helmet>
             <div className={styles.contactContainer}>

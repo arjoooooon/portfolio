@@ -129,8 +129,6 @@ const Experiences = () => {
         <div className={styles.container}>
             <Helmet>
                 <meta name="description" content="A record of my various experiences in High School, and many of my other interests" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BSFLBTLG1"></script>
-                <script src="../scripts/gtag.js"></script>
                 <meta name="keywords" contnet="Teaching, MUN, Programming, Computer Science, MUN, Speaking, Japanese, Language learning, Kanji Trainer, ROB" />
             </Helmet>
             <Navbar />

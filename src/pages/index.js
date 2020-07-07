@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
 import styles from '../styles/index.module.css';
 import { Link } from 'gatsby'
@@ -8,7 +8,6 @@ import muguri from '../assets/mugshot.png'
 import '../assets/Fonts/proxima_nova.ttf'
 import '../styles/index.css'
 
-// 115 115
 
 const App = () => {
     return (
@@ -18,8 +17,6 @@ const App = () => {
                 <meta name="description" content="Hi! I'm Arjun Taneja, and this is my personal portfolio.
                 Learn more about projects such as my Smart Bin and Kanji Trainer here!" />
                 <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BSFLBTLG1"></script>
-                <script src="../scripts/gtag.js"></script>
                 <meta name="keywords" content="Technology, Speaker, Leader, Student, Learner, Kanji Trainer, Portfolio, Google Blog" />
             </Helmet>
 
