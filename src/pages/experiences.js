@@ -128,6 +128,7 @@ const Experiences = () => {
     return (
         <div className={styles.container}>
             <Helmet>
+                <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
                 <meta name="description" content="A record of my various experiences in High School, and many of my other interests" />
                 <meta name="keywords" contnet="Teaching, MUN, Programming, Computer Science, MUN, Speaking, Japanese, Language learning, Kanji Trainer, ROB" />
             </Helmet>

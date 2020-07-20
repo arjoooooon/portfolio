@@ -16,6 +16,7 @@ const Projects  = () => {
     return (
         <div className={styles.container}>
             <Helmet>
+                <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
                 <meta name="description" content="A collection of fun programming projects and tools that I built" />
                 <meta name="keywords" content="Kanji Trainer, ROB, Simulatio, Github, programming, technology, AI, AWS, Cloud" />
             </Helmet>

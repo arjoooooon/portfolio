@@ -14,9 +14,9 @@ const Contact = () => {
         <div className={styles.container}>
             <Navbar />
             <Helmet>
+                <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
                 <meta name="description" content="Feel free to get in touch! I'm open to talking about cool, new ideas––or to just have an interesting conversation." />
                 <meta name="keywords" content="contact, instagram, linkedin, email, twitter, github" />
-
             </Helmet>
             <div className={styles.contactContainer}>
                 <a href="mailto:hello@arjuntaneja.com" target="_blank" className={styles.mailLink}>hello@arjuntaneja.com</a>

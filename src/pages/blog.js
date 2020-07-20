@@ -16,6 +16,7 @@ const Blog = () => {
     return (
         <div className={styles.container}>
             <Helmet>
+                <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
                 <meta name="description" content="Some of my thoughts and musings on various things" />
                 <meta name="keywords" content="blog, CAS, NYAA, activities, Kanji Trainer, juggling, ROB, japanese, learning, speaking, leading" />
             </Helmet>
@@ -43,11 +44,10 @@ const Blog = () => {
                                 "Be guided by the gods. / Now it is time to think of your own country, / if you are fated 
                                 to survive and reach / your high-roofed house and your forefather's land"
                             </i><br/><br/>
-                            "The Odyssey" is the story of a man trying to return to his homeland after several years of war, 
-                            and navigational incompetence. However, his journey is symbolic of something greater––the 
-                            transition from his warlike persona to a state where he can love, trust, and unite with 
-                            his family once more. It's a story of how we contend with multiple, sometimes conflicting identities.
-                            
+                            "The Odyssey" is the story of a man trying to return to his homeland after several years of war. 
+                            However, his journey is symbolic of something greater––the journey to leave behind his warlike persona
+                            in order to love, trust, and unite with his family once more. It is a story of how we contend 
+                            with multiple, sometimes conflicting identities.
                         </BlogPost>
 
                     </div>
