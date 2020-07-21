@@ -1,0 +1,40 @@
+.wrapper{
+    width: 100%;
+    height: 60vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(68,133,208,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'proxima nova'
+}
+
+.title{
+    color: white;
+    font-size: 4em;
+    margin-bottom: 3vh;
+}
+
+.date{
+    color: white;
+    font-size: 1.3em;
+    margin: 0;
+    font-family: 'proxima nova thin';
+}
+
+.content {
+    background-color: black;
+    width: 100%;
+    min-height: 30vh;
+    padding-bottom: 5vh;
+}
+
+.back-link{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-decoration: none;
+}

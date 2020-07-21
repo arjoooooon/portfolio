@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/blogpost.module.css';
+import { Link } from 'gatsby';
 
 const BlogPost = props => {
     return (
@@ -11,7 +12,7 @@ const BlogPost = props => {
             <div className={styles.description}>
                 {props.children}
             </div>
-            <label className={styles.read}>Read More</label>
+            <Link to={props.addr} className={styles.read}>Read More</Link>
         </div>
     );
 }
