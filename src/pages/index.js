@@ -4,10 +4,15 @@ import styles from '../styles/index.module.css';
 import { Link } from 'gatsby'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
-import muguri from '../assets/mugshot.png'
+//import muguri from '../assets/mugshot.png'
+import muguri from '../assets/Images/resized.jpg';
 import '../assets/Fonts/proxima_nova.ttf'
 import '../styles/index.css'
 
+import Anime from 'react-anime';
+import anime from 'animejs/lib/anime.es';
+
+//width & height of former muguri = 115
 
 const App = () => {
     return (
@@ -19,11 +24,17 @@ const App = () => {
                 <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
                 <meta name="keywords" content="Technology, Speaker, Leader, Student, Learner, Kanji Trainer, Portfolio, Google Blog" />
             </Helmet>
+            
+            <div style={{position: 'sticky', top: -40}}>
+            <img src={muguri} alt='face' className={styles.descriptionImage}/>
+            </div>
 
+            <div style={{position: 'absolute', top: 0, left: 0}}>
             <Navbar />
             <div className={styles.descriptionContainer}>
                 <h1 className={styles.descriptionHeader}>Arjun Taneja</h1>
-                <img src={muguri} alt='face' width={115} height={115} className={styles.descriptionImage}/>
+                
+                <Anime delay={anime.stagger(1000)} scale={[0.8, 0.9]} easing="easeInOutQuad">
                 <div className={styles.descriptionText}>
                     Hi there! Thank you for visiting my site. I am Arjun, a high school student at UWCSEA in Singapore. I am a curious
                     person who loves to use technology to build things with the goal of helping people and solving problems.<br/><br/>
@@ -53,8 +64,10 @@ const App = () => {
                     Thank you or reading and feel free to drop me a line at <a href="mailto:hello@arjuntaneja.com" target="_blank"
                     className={styles.link}>hello@arjuntaneja.com</a>.
                 </div>
+                </Anime>
             </div>
             <Footer />
+            </div>
         </div>
     );
 }

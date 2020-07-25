@@ -9,6 +9,7 @@
     overflow-x: hidden!important;
     font-family: 'proxima nova';
     font-weight: 100;
+    z-index: -2;
 }
 
 
@@ -44,6 +45,12 @@
 
 .description-image {
     margin: 0 0 1em 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+    height: 60.5vw;
+    z-index: -1;
 }
 
 .link {
@@ -63,5 +70,12 @@
 
     .description-header{
         margin: 1em 0 1em 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .description-image{
+        width: 0;
+        height: 0;
     }
 }
