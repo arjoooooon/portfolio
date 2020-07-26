@@ -34,7 +34,7 @@ const App = () => {
             <div className={styles.descriptionContainer}>
                 <h1 className={styles.descriptionHeader}>Arjun Taneja</h1>
                 
-                <Anime delay={anime.stagger(1000)} scale={[0.8, 0.9]} easing="easeInOutQuad">
+                <Anime delay={anime.stagger(1000)} opacity={[0.4, 1]} easing="easeInOutQuad">
                 <div className={styles.descriptionText}>
                     Hi there! Thank you for visiting my site. I am Arjun, a high school student at UWCSEA in Singapore. I am a curious
                     person who loves to use technology to build things with the goal of helping people and solving problems.<br/><br/>

@@ -9,6 +9,7 @@ import Photo3 from '../../assets/Images/Blog_photo3.jpg';
 import Photo4 from '../../assets/Images/Blog_photo4.jpg';
 import Photo5 from '../../assets/blank.png';
 
+
 //Width 418 Height 234
 
 const Blog = () => {

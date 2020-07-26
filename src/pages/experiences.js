@@ -164,7 +164,9 @@ const Experiences = () => {
                     </div>
                     </Anime>
                 </div>
+                <Anime delay={anime.stagger(100)} scale={[0.95, 1]}>
                 {maps[active.findIndex(i => i)]}
+                </Anime>
             </div>
             <Footer />
         </div>
