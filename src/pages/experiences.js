@@ -1,9 +1,12 @@
-import React,{ useState} from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar';
 import styles from '../styles/experiences.module.css';
 import Experience from '../components/Experience';
 import Footer from '../components/Footer.js';
+
+import Anime from 'react-anime';
+import anime from 'animejs/lib/anime.es';
 
 //-------------------IMAGE IMPORTS----------------------------
 import devfest from '../assets/devfest.png';
@@ -125,7 +128,11 @@ const Experiences = () => {
             </Experience>
         )),
     ]
+
+    const [renderedOnce, setRenderedOnce] = useState(false);
+
     return (
+
         <div className={styles.container}>
             <Helmet>
                 <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
@@ -136,18 +143,26 @@ const Experiences = () => {
             <div className={styles.wrapper}>
                 <h1 className={styles.title}>Experiences</h1>
                 <div className={styles.menuWrapper}>
-                    <div className={(active[0]? styles.activeMenuItem : styles.menuItem)} onClick={() => {setActive([true, false, false, false])}}>
+                    <Anime delay={anime.stagger(100)}
+                        scale={[
+                            {value: (renderedOnce)? 1 : 0.98, easing: 'easeOutSine', duration: 500},
+                            {value: 1, easing: "easeOutSine", duration: 500}
+                        ]}
+                        delay={anime.stagger(200, {grid: [20, 4], from: 'center'})}
+                    >
+                    <div className={(active[0]? styles.activeMenuItem : styles.menuItem)} onClick={() => {setActive([true, false, false, false]); setRenderedOnce(true)}}>
                         BUILDER
                     </div>
-                    <div className={(active[1]? styles.activeMenuItem : styles.menuItem)} onClick={() => {setActive([false, true, false, false])}}>
+                    <div className={(active[1]? styles.activeMenuItem : styles.menuItem)} onClick={() => {setActive([false, true, false, false]); setRenderedOnce(true)}}>
                         LEADER
                     </div>
-                    <div className={(active[2]? styles.activeMenuItem : styles.menuItem)} onClick={() => {setActive([false, false, true, false])}}>
+                    <div className={(active[2]? styles.activeMenuItem : styles.menuItem)} onClick={() => {setActive([false, false, true, false]); setRenderedOnce(true)}}>
                         SPEAKER
                     </div>
-                    <div className={(active[3]? styles.activeMenuItem : styles.menuItem)} onClick={() => {setActive([false, false, false, true])}}>
+                    <div className={(active[3]? styles.activeMenuItem : styles.menuItem)} onClick={() => {setActive([false, false, false, true]); setRenderedOnce(true)}}>
                         LEARNER
                     </div>
+                    </Anime>
                 </div>
                 {maps[active.findIndex(i => i)]}
             </div>

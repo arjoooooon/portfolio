@@ -25,7 +25,7 @@ const App = () => {
                 <meta name="keywords" content="Technology, Speaker, Leader, Student, Learner, Kanji Trainer, Portfolio, Google Blog" />
             </Helmet>
             
-            <div style={{position: 'sticky', top: -40}}>
+            <div style={{position: 'sticky', top: -100}}>
             <img src={muguri} alt='face' className={styles.descriptionImage}/>
             </div>
 
