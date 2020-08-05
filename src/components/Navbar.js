@@ -3,11 +3,17 @@ import styles from "../styles/navbar.module.css"
 import { Link } from "gatsby"
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = React.useState(false)
+  const onToggle = val => {
+    setIsOpen(!val)
+  }
   return (
-    <header className={styles.header}>
-      <div class={styles.hamburger}>
-        <div class={styles.hamburgerBox}>
-          <div class={styles.hamburgerInner}></div>
+    <header
+      className={isOpen ? `${styles.active} ${styles.header}` : styles.header}
+    >
+      <div className={styles.hamburger} onClick={() => onToggle(isOpen)}>
+        <div className={styles.hamburgerBox}>
+          <div className={styles.hamburgerInner}></div>
         </div>
       </div>
       <div className={styles.container}>
