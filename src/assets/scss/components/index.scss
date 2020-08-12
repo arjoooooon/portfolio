@@ -259,15 +259,15 @@ h5,
     }
   }
 
-  &.scrolled {
+  &.sticky {
     position: fixed;
     right: 0;
     left: 0;
     top: 0;
-    margin-top: -130px;
     background: $white !important;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0 15px;
+    z-index: 9999;
     .nav-item {
       > .nav-link {
         @include media-breakpoint-down(md) {

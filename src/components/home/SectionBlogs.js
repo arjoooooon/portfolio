@@ -2,8 +2,6 @@ import React from "react"
 import { Link } from 'gatsby'
 
 const SectionBlogs = ({ data }) => {
-    console.info(data)
-    console.info("data:", data)
     return (
         <section className="ftco-section bg-light" id="blog-section">
             <div className="container">
