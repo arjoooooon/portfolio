@@ -1,4 +1,5 @@
 import React from "react"
+import pic1 from "../../assets/images/about-1.jpg"
 
 const SectionAbout = () => {
     return (
@@ -9,6 +10,7 @@ const SectionAbout = () => {
                         <div className="img-about img d-flex align-items-stretch">
                             <div className="overlay"></div>
                             <div className="img d-flex align-self-stretch align-items-center">
+                                <img src={pic1} alt="" />
                             </div>
                         </div>
                     </div>
@@ -22,7 +24,7 @@ const SectionAbout = () => {
                         </div>
                         <div className="row">
                             <div className="col-md-6">
-                                <div data-aos='fade-up' className="media block-6 services d-block">
+                                <div data-aos='fade-up' data-aos-delay="200" className="media block-6 services d-block">
                                     <div className="icon"><span className="flaticon-analysis"></span></div>
                                     <div className="media-body">
                                         <h3 className="heading mb-3">Web Design</h3>
@@ -31,7 +33,7 @@ const SectionAbout = () => {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div data-aos='fade-up' className="media block-6 services d-block ftco-animate">
+                                <div data-aos='fade-up' data-aos-delay="400" className="media block-6 services d-block ftco-animate">
                                     <div className="icon"><span className="flaticon-analysis"></span></div>
                                     <div className="media-body">
                                         <h3 className="heading mb-3">Web Application</h3>
@@ -40,7 +42,7 @@ const SectionAbout = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos='fade-up' className="counter-wrap ftco-animate d-flex mt-md-3">
+                        <div data-aos='fade-up' data-aos-delay="600" className="counter-wrap d-flex mt-md-3">
                             <div className="text p-4 pr-5 bg-primary">
                                 <p className="mb-0">
                                     <span className="number" data-number="200">200</span>

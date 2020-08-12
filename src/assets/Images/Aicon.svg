@@ -10,8 +10,8 @@
 	.st4{font-size:500px;}
 </style>
 <g>
-	<circle class="st0" cx="256" cy="256" r="256"/>
-	<rect x="102" y="70" class="st1" width="335.8" height="345.8"/>
-	<text transform="matrix(1 0 0 1 102.0078 403.5018)" class="st2 st3 st4">A</text>
+	<circle className="st0" cx="256" cy="256" r="256"/>
+	<rect x="102" y="70" className="st1" width="335.8" height="345.8"/>
+	<text transform="matrix(1 0 0 1 102.0078 403.5018)" className="st2 st3 st4">A</text>
 </g>
 </svg>
