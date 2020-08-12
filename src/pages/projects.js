@@ -1,15 +1,14 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import { Helmet } from 'react-helmet';
 import styles from '../styles/projects.module.css';
 import Project from '../components/Project';
 import Footer from '../components/Footer';
 
-import rob from '../assets/Images/rob.png';
-import kanjitrainer from '../assets/kanjitrainer.png'
-import homely from '../assets/homely.png';
-import shootout from '../assets/shootout.png';
-import simulatio from '../assets/simulatio.png';
+import rob from '../assets/images/rob.png';
+import kanjitrainer from '../assets/images/kanjitrainer.png'
+import homely from '../assets/images/homely.png';
+import shootout from '../assets/images/shootout.png';
+import simulatio from '../assets/images/simulatio.png';
 
 const Projects  = () => {
     
@@ -20,7 +19,6 @@ const Projects  = () => {
                 <meta name="description" content="A collection of fun programming projects and tools that I built" />
                 <meta name="keywords" content="Kanji Trainer, ROB, Simulatio, Github, programming, technology, AI, AWS, Cloud" />
             </Helmet>
-            <Navbar />
             <div className={styles.wrapper}>
                 <h1 className={styles.title}>Projects</h1>
                 <Project className={styles.project} title="ROB | The Intelligent Bin" link="http://sgsmartbin.com"

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
-import Navbar from '../components/Navbar';
 import styles from '../styles/experiences.module.css';
 import Experience from '../components/Experience';
 import Footer from '../components/Footer.js';
@@ -9,11 +8,11 @@ import Anime from 'react-anime';
 import anime from 'animejs/lib/anime.es';
 
 //-------------------IMAGE IMPORTS----------------------------
-import devfest from '../assets/devfest.png';
-import blank from '../assets/blank.png';
-import smartbindiagram from '../assets/smartbindiagram.png';
-import agritech from '../assets/agritech.png';
-import tedtalk from '../assets/Images/tedtalk.jpg'
+import devfest from '../assets/images/devfest.png';
+import blank from '../assets/images/blank.png';
+import smartbindiagram from '../assets/images/smartbindiagram.png';
+import agritech from '../assets/images/agritech.png';
+import tedtalk from '../assets/images/tedtalk.jpg'
 //-------------------IMAGE IMPORTS----------------------------
 
 let builderText = [
@@ -139,7 +138,6 @@ const Experiences = () => {
                 <meta name="description" content="A record of my various experiences in High School, and many of my other interests" />
                 <meta name="keywords" contnet="Teaching, MUN, Programming, Computer Science, MUN, Speaking, Japanese, Language learning, Kanji Trainer, ROB" />
             </Helmet>
-            <Navbar />
             <div className={styles.wrapper}>
                 <h1 className={styles.title}>Experiences</h1>
                 <div className={styles.menuWrapper}>

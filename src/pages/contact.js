@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import { Helmet } from 'react-helmet';
 import styles from '../styles/contact.module.css';
 import instagram from '../assets/SVG/instagram.svg';
@@ -9,10 +8,9 @@ import github from '../assets/SVG/github.svg';
 import email from '../assets/SVG/email.svg';
 
 const Contact = () => {
-    
+
     return (
         <div className={styles.container}>
-            <Navbar />
             <Helmet>
                 <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
                 <meta name="description" content="Feel free to get in touch! I'm open to talking about cool, new ideas––or to just have an interesting conversation." />
