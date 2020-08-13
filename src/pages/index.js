@@ -1,13 +1,21 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { Container } from 'react-bootstrap';
-import { SectionAbout, SectionSkill, SectionFreelancing, SectionContact, SectionProjects, SectionBlogs } from "../components/home"
+import { Container } from "react-bootstrap"
+import {
+  SectionAbout,
+  SectionSkill,
+  SectionFreelancing,
+  SectionContact,
+  SectionProjects,
+  SectionBlogs,
+  SectionHero,
+} from "../components/home"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const HomeIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -18,14 +26,13 @@ const HomeIndex = ({ data, location }) => {
       duration: 1000,
       once: true,
     })
-  });
+  })
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Container>
-        <SectionAbout />
-        <SectionSkill />
-      </Container>
+      <SectionHero />
+      <SectionAbout />
+      <SectionSkill />
       <SectionFreelancing />
       <SectionProjects />
       <SectionBlogs data={posts} />

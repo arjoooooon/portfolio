@@ -23,7 +23,7 @@ const Header = () => {
     console.info('scrollTop:', scrolling)
     return (
         <header className={`sticky-wrapper ftco-navbar-light${scrollTop ? ' sticky' : ''}`}>
-            <Navbar bg="light" expand="lg" className="ftco-navbar-light">
+            <Navbar expand="lg" className="ftco-navbar-light">
                 <Container>
                     <Navbar.Brand href="#home">Arjun Taneja</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
