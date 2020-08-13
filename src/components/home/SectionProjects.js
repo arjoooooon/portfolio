@@ -1,6 +1,6 @@
 import React from "react"
 
-const SectionProjects = () => {
+const SectionProjects = ({ data }) => {
     return (
         <section className="ftco-section ftco-project" id="projects-section">
             <div className="container">
@@ -12,55 +12,71 @@ const SectionProjects = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-8">
-                        <div data-aos='fade-up' className="project img img-2 d-flex justify-content-center align-items-center">
-                            <div className="overlay"></div>
-                            <div className="text text-center p-4">
-                                <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                                <span>Web Design</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="row">
-                            <div className="col-md-12">
-                                <div data-aos='fade-up' className="project img d-flex justify-content-center align-items-center">
+                    {data.map(({ node }, index) => {
+                        const title = node.frontmatter.title || node.fields.slug
+                        const thumbnail = node.frontmatter.thumbnail ? node.frontmatter.thumbnail.publicURL : ''
+                        if (index === 1) {
+                            return (<div className="col-md-8">
+                                <div data-aos='fade-up' className="project img img-2 d-flex justify-content-center align-items-center" style={{ background: `url(${thumbnail})` }}>
                                     <div className="overlay"></div>
                                     <div className="text text-center p-4">
-                                        <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+                                        <h3><a href="#">{title}</a></h3>
+                                        <span>Web Design</span>
+                                    </div>
+                                </div>
+                            </div>)
+                        } else if (index === 2) {
+                            return (
+                                <div className="col-md-4">
+                                    <div className="row">
+                                        <div className="col-md-12">
+                                            <div data-aos='fade-up' className="project img d-flex justify-content-center align-items-center" style={{ background: `url(${thumbnail})` }}>
+                                                <div className="overlay"></div>
+                                                <div className="text text-center p-4">
+                                                    <h3><a href="#">{title}</a></h3>
+                                                    <span>Web Design</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12">
+                                            <div data-aos='fade-up' className="project img d-flex justify-content-center align-items-center" style={{ background: `url(${thumbnail})` }}>
+                                                <div className="overlay"></div>
+                                                <div className="text text-center p-4">
+                                                    <h3><a href="#">{title}</a></h3>
+                                                    <span>Web Design</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        } else if (index === 4) {
+                            return (
+                                <div className="col-md-4">
+                                    <div data-aos='fade-up' className="project img d-flex justify-content-center align-items-center" style={{ background: `url(${thumbnail})` }}>
+                                        <div className="overlay"></div>
+                                        <div className="text text-center p-4">
+                                            <h3><a href="#">{title}</a></h3>
+                                            <span>Web Design</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        }
+                        return (
+                            <div className="col-md-8">
+                                <div data-aos='fade-up' className="project img d-flex justify-content-center align-items-center" style={{ background: `url(${thumbnail})` }}>
+                                    <div className="overlay"></div>
+                                    <div className="text text-center p-4">
+                                        <h3><a href="#">{title}</a></h3>
                                         <span>Web Design</span>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-12">
-                                <div data-aos='fade-up' className="project img d-flex justify-content-center align-items-center">
-                                    <div className="overlay"></div>
-                                    <div className="text text-center p-4">
-                                        <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                                        <span>Web Design</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div data-aos='fade-up' className="project img d-flex justify-content-center align-items-center">
-                            <div className="overlay"></div>
-                            <div className="text text-center p-4">
-                                <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                                <span>Web Design</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-8">
-                        <div data-aos='fade-up' className="project img d-flex justify-content-center align-items-center">
-                            <div className="overlay"></div>
-                            <div className="text text-center p-4">
-                                <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                                <span>Web Design</span>
-                            </div>
-                        </div>
-                    </div>
+                        )
+                    })}
+
+
                 </div>
             </div>
         </section>

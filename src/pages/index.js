@@ -19,7 +19,8 @@ import "aos/dist/aos.css"
 
 const HomeIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
+  const posts = data.blog.edges
+  const projects = data.projects.edges
 
   React.useEffect(() => {
     AOS.init({
@@ -34,7 +35,7 @@ const HomeIndex = ({ data, location }) => {
       <SectionAbout />
       <SectionSkill />
       <SectionFreelancing />
-      <SectionProjects />
+      <SectionProjects data={projects} />
       <SectionBlogs data={posts} />
       <SectionContact />
     </Layout>
@@ -50,7 +51,27 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    blog: allMarkdownRemark(filter: { fields: { collection: { eq: "blog" } } }
+    limit: 3) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            description
+            thumbnail {
+              publicURL
+            }
+          }
+        }
+      }
+    }
+    projects: allMarkdownRemark(filter: { fields: { collection: { eq: "projects" } } }
+    limit: 5) {
       edges {
         node {
           excerpt
