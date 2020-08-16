@@ -1,0 +1,33 @@
+a {
+  transition: 0.3s all ease;
+  color: $primary;
+  text-decoration: none;
+  box-shadow: none;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $primary;
+    outline: none !important;
+  }
+}
+img {
+  margin-bottom: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 400;
+}
+
+.text-primary {
+  color: $primary !important;
+}

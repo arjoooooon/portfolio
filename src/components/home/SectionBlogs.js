@@ -20,8 +20,8 @@ const SectionBlogs = ({ data }) => {
                         const thumbnail = node.frontmatter.thumbnail ? node.frontmatter.thumbnail.publicURL : ''
                         return (
                             <article className="col-md-4 d-flex" key={index}>
-                                <div data-aos='fade-up' data-aos-delay={index * 200} className="blog-entry justify-content-end">
-                                    <a href="single.html" className="block-20">
+                                <div data-aos='fade-up' data-aos-delay={index * 200} className="blog-entry w-100 justify-content-end">
+                                    <a href={slug} className="block-thumb">
                                         <img src={thumbnail} alt={title} />
                                     </a>
                                     <div className="text mt-3 float-right d-block">

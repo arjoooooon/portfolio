@@ -29,7 +29,7 @@ const PageBlog = ({ data }) => {
           <div className="row justify-content-center pb-5">
             <div data-aos='fade-up' className="col-md-12 heading-section text-center">
               <span className="subheading">Accomplishments</span>
-              <h2 className="mb-4">Our Projects</h2>
+              <h2 className="mb-4">Our Blog</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const PageBlog = ({ data }) => {
               return (
                 <div className="project" key={index}>
                   <div data-aos='fade-up' className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
-                    <div><img src={thumbnail} alt={title} /></div>
+                    <div className="project-thumb"><img src={thumbnail} alt={title} /></div>
                     <div className="overlay"></div>
                     <div className="text text-center p-4">
                       <h3><a href={slug}>{title}</a></h3>

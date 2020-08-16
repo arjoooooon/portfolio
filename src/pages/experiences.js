@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import styles from '../styles/experiences.module.css';
 import Experience from '../components/Experience';
-import Footer from '../components/Footer.js';
 
 import Anime from 'react-anime';
 import anime from 'animejs/lib/anime.es';
@@ -167,7 +166,6 @@ const Experiences = () => {
                 {maps[active.findIndex(i => i)]}
                 </Anime>
             </div>
-            <Footer />
         </Layout>
     );
 }

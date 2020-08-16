@@ -1,20 +1,20 @@
 import React from "react"
 import { Carousel, Container } from "react-bootstrap"
+import Icon from '../Icon'
 import slide1 from "../../assets/images/bg_1.jpg"
 import slide2 from "../../assets/images/bg_2.jpg"
 
 const SectionHero = () => {
   return (
     <section id="home-section" className="hero">
-      <Carousel loop={true} margin={10} fade={true} nav={true} className="home-slider owl-theme">
+      <Carousel loop={true} margin={10} fade={true} nav={true} controls={false} className="home-slider owl-theme">
         <Carousel.Item className="slider-item ">
           <div className="overlay"></div>
           <Container>
             <div
               className="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
             >
-              <div className="one-third order-md-last img">
-                <img src={slide1} alt="" />
+              <div className="one-third order-md-last img" style={{background: `url(${slide1})`}}>
                 <div className="overlay"></div>
               </div>
               <div className="one-forth d-flex  align-items-center">
@@ -22,7 +22,7 @@ const SectionHero = () => {
                   href="https://vimeo.com/45830194"
                   className="icon-video popup-vimeo d-flex justify-content-center align-items-center"
                 >
-                  <span className="ion-ios-play play"></span>
+                  <Icon icon="play3" className="play" size={26} />
                 </a>
                 <div className="text">
                   <span className="subheading">Hello</span>
@@ -46,8 +46,7 @@ const SectionHero = () => {
             <div
               className="row d-flex no-gutters slider-text align-items-end justify-content-end"
             >
-              <div className="one-third order-md-last img">
-                <img src={slide2} alt="" />
+              <div className="one-third order-md-last img" style={{background: `url(${slide2})`}}>
                 <div className="overlay"></div>
               </div>
               <div className="one-forth d-flex align-items-center">
@@ -55,7 +54,7 @@ const SectionHero = () => {
                   href="https://vimeo.com/45830194"
                   className="icon-video popup-vimeo d-flex justify-content-center align-items-center"
                 >
-                  <span className="ion-ios-play play"></span>
+                  <Icon icon="play3" className="play" size={26} />
                 </a>
                 <div className="text">
                   <h1 className="mb-4 mt-3">

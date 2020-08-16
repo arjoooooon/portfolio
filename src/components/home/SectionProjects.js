@@ -36,7 +36,7 @@ class SectionProjects extends React.Component {
                             return (
                                 <div className="project" key={index}>
                                     <div data-aos='fade-up' className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
-                                        <div><img src={thumbnail} alt={title} /></div>
+                                        <div className="project-thumb"><img src={thumbnail} alt={title} /></div>
                                         <div className="overlay"></div>
                                         <div className="text text-center p-4">
                                             <h3><a href={slug}>{title}</a></h3>

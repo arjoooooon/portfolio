@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className="col-md">
                         <div className="arja-footer-widget mb-4 ml-md-4">
                             <h2 className="arja-heading-2">Links</h2>
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled list-link">
                                 <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Home</a></li>
                                 <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />About</a></li>
                                 <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Services</a></li>
@@ -33,7 +33,7 @@ const Footer = () => {
                     <div className="col-md">
                         <div className="arja-footer-widget mb-4">
                             <h2 className="arja-heading-2">Services</h2>
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled list-link">
                                 <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Web Design</a></li>
                                 <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Web Development</a></li>
                                 <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Business Strategy</a></li>
