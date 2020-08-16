@@ -13,6 +13,7 @@ import blank from '../assets/images/blank.png';
 import smartbindiagram from '../assets/images/smartbindiagram.png';
 import agritech from '../assets/images/agritech.png';
 import tedtalk from '../assets/images/tedtalk.jpg'
+import Layout from '../components/layout';
 //-------------------IMAGE IMPORTS----------------------------
 
 let builderText = [
@@ -132,7 +133,7 @@ const Experiences = () => {
 
     return (
 
-        <div className={styles.container}>
+        <Layout>
             <Helmet>
                 <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
                 <meta name="description" content="A record of my various experiences in High School, and many of my other interests" />
@@ -167,7 +168,7 @@ const Experiences = () => {
                 </Anime>
             </div>
             <Footer />
-        </div>
+        </Layout>
     );
 }
 

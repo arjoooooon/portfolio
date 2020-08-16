@@ -6,11 +6,12 @@ import linkedin from '../assets/SVG/linkedin.svg';
 import twitter from '../assets/SVG/twitter.svg';
 import github from '../assets/SVG/github.svg';
 import email from '../assets/SVG/email.svg';
+import Layout from '../components/layout';
 
 const Contact = () => {
 
     return (
-        <div className={styles.container}>
+        <Layout className={styles.container}>
             <Helmet>
                 <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
                 <meta name="description" content="Feel free to get in touch! I'm open to talking about cool, new ideas––or to just have an interesting conversation." />
@@ -37,7 +38,7 @@ const Contact = () => {
                 </div>
 
             </div>
-        </div>
+        </Layout>
     );
 }
 

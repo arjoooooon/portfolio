@@ -33,3 +33,200 @@ header {
     margin: 0;
   }
 }
+.sticky-wrapper {
+  top: -200px;
+  transition: all 0.3s ease;
+  &.ftco-navbar-light {
+    background: transparent !important;
+    // padding-top: 30px;
+    @include media-breakpoint-down(md) {
+      background: $black !important;
+      position: relative;
+      top: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .container {
+      width: 1110px;
+      margin: 0 auto;
+      padding: 0;
+      @include media-breakpoint-up(lg) {
+      }
+    }
+
+    .navbar-brand {
+      color: $black;
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+      &:hover,
+      &:focus {
+        color: $black;
+      }
+      @include media-breakpoint-down(md) {
+        color: $white;
+      }
+    }
+
+    .navbar-nav {
+      @include media-breakpoint-down(md) {
+        padding-bottom: 20px;
+        // margin-left: 20px !important;
+        margin-right: 0;
+      }
+      > .nav-link {
+        font-size: 16px;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: $black;
+        font-weight: 400;
+        opacity: 1 !important;
+        text-decoration: none;
+        span {
+          position: relative;
+          display: block;
+          padding-bottom: 2px;
+          @include media-breakpoint-down(lg) {
+            display: inline-block;
+          }
+          &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background: $primary;
+            visibility: visible;
+            transform: scaleX(0);
+            transition: all 0.3s ease-in-out 0s;
+          }
+        }
+        &:hover {
+          span {
+            &:before {
+              visibility: visible;
+              transform: scaleX(1);
+            }
+          }
+        }
+        @include media-breakpoint-down(md) {
+          padding-left: 0;
+          padding-right: 0;
+          padding-bottom: 1rem;
+          padding-top: 0;
+          color: $white;
+        }
+      }
+      .nav-link {
+        &.current {
+          background: transparent;
+          background: none;
+          color: $primary;
+          span {
+            &:before {
+              visibility: visible;
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+
+      @include media-breakpoint-down(md) {
+        &.active {
+          > a {
+            color: $primary;
+          }
+        }
+      }
+    }
+    .navbar-toggler {
+      border: none;
+      color: rgba(255, 255, 255, 0.5) !important;
+      cursor: pointer;
+      padding-right: 0;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 0.1em;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        color: $primary;
+        outline: none !important;
+      }
+    }
+
+    &.sticky {
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      background: $white !important;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+      padding: 0 15px;
+      z-index: 9999;
+      .nav-item {
+        > .nav-link {
+          @include media-breakpoint-down(md) {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            padding-bottom: 20px !important;
+          }
+        }
+        &.current {
+          > a {
+            color: $primary;
+          }
+        }
+      }
+
+      .navbar-nav {
+        @include media-breakpoint-down(md) {
+          background: none;
+          border-radius: 0px;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          margin-left: 0 !important;
+        }
+      }
+
+      .navbar-toggler {
+        border: none;
+        color: rgba(0, 0, 0, 0.5);
+        border-color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+      }
+      .nav-link {
+        color: $black;
+        &.current {
+          color: $primary;
+        }
+      }
+      &.awake {
+        margin-top: 0px;
+        transition: 0.3s all ease-out;
+      }
+      &.sleep {
+        transition: 0.3s all ease-out;
+      }
+
+      .navbar-brand {
+        color: $black;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 24px;
+      }
+    }
+  }
+}
+.navbar-brand {
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+}

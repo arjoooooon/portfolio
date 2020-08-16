@@ -71,7 +71,7 @@ export const pageQuery = graphql`
       }
     }
     projects: allMarkdownRemark(filter: { fields: { collection: { eq: "projects" } } }
-    limit: 5) {
+    limit: 6) {
       edges {
         node {
           excerpt

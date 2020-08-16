@@ -1,67 +1,89 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
-import styles from '../styles/projects.module.css';
-import Project from '../components/Project';
-import Footer from '../components/Footer';
+import { Container } from "react-bootstrap"
+import Layout from "../components/layout"
+import Masonry from 'react-masonry-component';
+import SEO from "../components/seo"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
-import rob from '../assets/images/rob.png';
-import kanjitrainer from '../assets/images/kanjitrainer.png'
-import homely from '../assets/images/homely.png';
-import shootout from '../assets/images/shootout.png';
-import simulatio from '../assets/images/simulatio.png';
+const masonryOptions = {
+    transitionDuration: 0,
+    fitWidth: true,
+};
 
-const Projects  = () => {
-    
+const imagesLoadedOptions = { background: '.my-bg-image-el' }
+const PageProject = ({ data }) => {
+    const projectPost = data.allMarkdownRemark.edges
+
+    React.useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true,
+        })
+    })
     return (
-        <div className={styles.container}>
-            <Helmet>
-                <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
-                <meta name="description" content="A collection of fun programming projects and tools that I built" />
-                <meta name="keywords" content="Kanji Trainer, ROB, Simulatio, Github, programming, technology, AI, AWS, Cloud" />
-            </Helmet>
-            <div className={styles.wrapper}>
-                <h1 className={styles.title}>Projects</h1>
-                <Project className={styles.project} title="ROB | The Intelligent Bin" link="http://sgsmartbin.com"
-                techs={['AI - powered (Tensorflow, Keras)', 
-                'Cloud (Google Colab)']} uri={rob}>
-                    A bin that uses computer vision and artificial intelligence to automatically segregate trash based on materials composition.
-                </Project>
-
-                <Project className={styles.project} title="Kanji Trainer" uri={kanjitrainer} link="" techs={[
-                    'Mobile Application for iOS & Android (React native)',
-                    'AI - powered (Tensorflow, Keras)',
-                    'Database and API oriented (Amazon Web Services) '
-                ]}>
-                    An AI-powered IOS/Android application that allows users to learn how to write Japanese characters (Kanji). Users can use the App to draw characters using their finger, and the App gives real time feedback on the accuracy of their strokes
-                </Project>
-
-                <Project className={styles.project} title="Homely" uri={homely} link="https://stonks-d9988.firebaseapp.com/" techs={[
-                    'Web application (React)',
-                    'Database and Authentication (Firebase)',
-                    'Geolocational data representation (Leaflet.js)'
-                ]}>
-                    A web application that connects customers with vendors. During the coronavirus, consumers often go out to shop only to realize that the item they desire is out of stock. This Application allows stores to list their products, so that consumers can easily find a particular item and go shopping for it in order to minimize the risk of infection.
-                </Project>
-
-                <Project className={styles.project} title="Simulatio" uri={simulatio} link="https://github.com/arjoooooon/javascript_experiments" techs={[
-                    'JavaScript',
-                    'p5.js'
-                ]}>
-                    A collection of interesting physics based simulations that I programmed. Teaches the user about interesting physics based phenomena in an interactive way.
-                </Project>
-
-                <Project className={styles.project} title="Shootout" uri={shootout} link="http://github.com/arjoooooon" techs={[
-                    'Lua',
-                    'Love2D'
-                ]}>
-                    A video game that I programmed during my summer course at Stanford University. It is a top down shooter that implements a lot of  projectile mechanics and physics.
-                </Project>
-                               
-            </div>
-
-            <Footer />
-        </div>
+        <Layout>
+            <SEO title="Projects" />
+            <section className="ftco-section ftco-project" id="projects-section">
+                <div className="container">
+                    <div className="row justify-content-center pb-5">
+                        <div data-aos='fade-up' className="col-md-12 heading-section text-center">
+                            <span className="subheading">Accomplishments</span>
+                            <h2 className="mb-4">Our Projects</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        </div>
+                    </div>
+                    <Masonry
+                        className={'my-gallery-class'} // default ''
+                        elementType={'div'} // default 'div'
+                        options={masonryOptions} // default {}
+                        disableImagesLoaded={false} // default false
+                        updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
+                        imagesLoadedOptions={imagesLoadedOptions} // default {}
+                    >
+                        {projectPost.map(({ node }, index) => {
+                            const title = node.frontmatter.title || node.fields.slug
+                            const thumbnail = node.frontmatter.thumbnail ? node.frontmatter.thumbnail.publicURL : ''
+                            return (
+                                <div className="project" key={index}>
+                                    <div data-aos='fade-up' className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
+                                        <div><img src={thumbnail} alt={title} /></div>
+                                        <div className="overlay"></div>
+                                        <div className="text text-center p-4">
+                                            <h3><a href="#">{title}</a></h3>
+                                            <span>Web Design</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </Masonry>
+                </div>
+            </section>
+        </Layout>
     );
 }
-
-export default Projects;
+export default PageProject
+export const pageQuery = graphql`
+  query PageProject{
+    allMarkdownRemark(filter: { fields: { collection: { eq: "projects" } } }
+    limit: 6) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            description
+            thumbnail {
+              publicURL
+            }
+          }
+        }
+      }
+    }
+  }
+`

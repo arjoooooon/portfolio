@@ -1,8 +1,10 @@
 ---
-title: New Beginnings
+title: ROB | The Intelligent Bin
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: A bin that uses computer vision and artificial intelligence to automatically segregate trash based on materials composition.
+url: http://sgsmartbin.com
 thumbnail: "image_3.jpg"
+technology: ["AI - powered (Tensorflow, Keras)","Cloud (Google Colab)"]
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

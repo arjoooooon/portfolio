@@ -20,12 +20,11 @@ const Header = () => {
         window.addEventListener("scroll", onScroll);
         return window.addEventListener("scroll", onScroll);
     }, []);
-    console.info('scrollTop:', scrolling)
     return (
         <header className={`sticky-wrapper ftco-navbar-light${scrollTop ? ' sticky' : ''}`}>
-            <Navbar expand="lg" className="ftco-navbar-light">
+            <Navbar expand="lg" className="ftco_navbar ftco-navbar-light site-navbar-target">
                 <Container>
-                    <Navbar.Brand href="#home">Arjun Taneja</Navbar.Brand>
+                    <Navbar.Brand href="/">Arjun Taneja</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="ml-auto">
                         <Nav className="ml-auto">

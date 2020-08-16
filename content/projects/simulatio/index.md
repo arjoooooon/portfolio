@@ -1,8 +1,10 @@
 ---
-title: My Second Post!
+title: Simulatio
 date: "2015-05-06T23:46:37.121Z"
-description: Wow! I love blogging so much already.
-thumbnail: "image_2.jpg"
+description: A collection of interesting physics based simulations that I programmed. Teaches the user about interesting physics based phenomena in an interactive way.
+url: https://github.com/arjoooooon/javascript_experiments
+thumbnail: "simulatio.png" 
+technology: ["JavaScript","p5.js"]
 ---
 
 Wow! I love blogging so much already.

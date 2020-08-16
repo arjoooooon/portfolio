@@ -1,8 +1,10 @@
 ---
-title: New Beginnings
+title: Kanji Trainer
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
-thumbnail: "image_3.jpg"
+description: An AI-powered IOS/Android application that allows users to learn how to write Japanese characters (Kanji). Users can use the App to draw characters using their finger, and the App gives real time feedback on the accuracy of their strokes.
+url:
+thumbnail: "image_2.jpg"
+technology: ["Mobile Application for iOS & Android (React native)","AI - powered (Tensorflow, Keras)","Database and API oriented (Amazon Web Services)"]
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
