@@ -1,18 +1,17 @@
 import React from "react"
-import { Carousel } from "react-bootstrap"
+import { Carousel, Container } from "react-bootstrap"
 import slide1 from "../../assets/images/bg_1.jpg"
 import slide2 from "../../assets/images/bg_2.jpg"
 
 const SectionHero = () => {
   return (
     <section id="home-section" className="hero">
-      <Carousel loop margin={10} fade nav className="home-slider owl-theme">
+      <Carousel loop={true} margin={10} fade={true} nav={true} className="home-slider owl-theme">
         <Carousel.Item className="slider-item ">
           <div className="overlay"></div>
-          <div className="container">
+          <Container>
             <div
               className="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
-              data-scrollax-parent="true"
             >
               <div className="one-third order-md-last img">
                 <img src={slide1} alt="" />
@@ -39,14 +38,13 @@ const SectionHero = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </Carousel.Item>
         <Carousel.Item className="slider-item">
           <div className="overlay"></div>
-          <div className="container">
+          <Container>
             <div
               className="row d-flex no-gutters slider-text align-items-end justify-content-end"
-              data-scrollax-parent="true"
             >
               <div className="one-third order-md-last img">
                 <img src={slide2} alt="" />
@@ -71,7 +69,7 @@ const SectionHero = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Container>
         </Carousel.Item>
       </Carousel>
     </section>

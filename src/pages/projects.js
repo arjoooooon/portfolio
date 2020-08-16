@@ -43,6 +43,7 @@ const PageProject = ({ data }) => {
                     >
                         {projectPost.map(({ node }, index) => {
                             const title = node.frontmatter.title || node.fields.slug
+                            const slug = node.fields.slug
                             const thumbnail = node.frontmatter.thumbnail ? node.frontmatter.thumbnail.publicURL : ''
                             return (
                                 <div className="project" key={index}>
@@ -50,7 +51,7 @@ const PageProject = ({ data }) => {
                                         <div><img src={thumbnail} alt={title} /></div>
                                         <div className="overlay"></div>
                                         <div className="text text-center p-4">
-                                            <h3><a href="#">{title}</a></h3>
+                                            <h3><a href={slug}>{title}</a></h3>
                                             <span>Web Design</span>
                                         </div>
                                     </div>

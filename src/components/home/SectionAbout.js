@@ -1,10 +1,11 @@
 import React from "react"
 import pic1 from "../../assets/images/about-1.jpg"
+import { Container } from "react-bootstrap"
 
 const SectionAbout = () => {
     return (
         <section className="ftco-about ftco-counter img ftco-section" id="about-section">
-            <div className="container">
+            <Container>
                 <div className="row d-flex">
                     <div className="col-md-6 col-lg-5 d-flex">
                         <div className="img-about img d-flex align-items-stretch">
@@ -52,7 +53,7 @@ const SectionAbout = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Container>
         </section>
     )
 }

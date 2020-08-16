@@ -3,17 +3,9 @@ import { Navbar, NavDropdown, Form, FormControl, Button, Nav, Container } from '
 import { Link } from "gatsby"
 
 const Header = () => {
-    const [scrolling, setScrolling] = useState(false);
     const [scrollTop, setScrollTop] = useState(0);
     const onScroll = () => {
         let currentPosition = window.pageYOffset; // or use document.documentElement.scrollTop;
-        if (currentPosition > scrollTop + 62) {
-            // downscroll code
-            setScrolling(false);
-        } else {
-            // upscroll code
-            setScrolling(true);
-        }
         setScrollTop(currentPosition <= 0 ? 0 : currentPosition);
     }
     useEffect(() => {
@@ -21,7 +13,7 @@ const Header = () => {
         return window.addEventListener("scroll", onScroll);
     }, []);
     return (
-        <header className={`sticky-wrapper ftco-navbar-light${scrollTop ? ' sticky' : ''}`}>
+        <header className={`sticky-wrapper ftco-navbar-light${scrollTop > 100 ? ' sticky' : ''}`}>
             <Navbar expand="lg" className="ftco_navbar ftco-navbar-light site-navbar-target">
                 <Container>
                     <Navbar.Brand href="/">Arjun Taneja</Navbar.Brand>
