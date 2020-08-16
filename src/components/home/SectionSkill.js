@@ -3,7 +3,7 @@ import { ProgressBar } from "react-bootstrap"
 
 const SectionSkill = () => {
   return (
-    <section className="ftco-section bg-light" id="skills-section">
+    <section className="arja-section bg-light" id="skills-section">
       <div className="container">
         <div className="row justify-content-center pb-5">
           <div

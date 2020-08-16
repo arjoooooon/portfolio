@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap"
 
 const SectionBlogs = ({ data }) => {
     return (
-        <section className="ftco-section bg-light" id="blog-section">
+        <section className="arja-section bg-light" id="blog-section">
             <Container>
                 <div className="row justify-content-center mb-5 pb-5">
                     <div data-aos='fade-up' className="col-md-7 heading-section text-center">

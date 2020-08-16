@@ -13,8 +13,8 @@ const Header = () => {
         return window.addEventListener("scroll", onScroll);
     }, []);
     return (
-        <header className={`sticky-wrapper ftco-navbar-light${scrollTop > 100 ? ' sticky' : ''}`}>
-            <Navbar expand="lg" className="ftco_navbar ftco-navbar-light site-navbar-target">
+        <header className={`sticky-wrapper arja-navbar-light${scrollTop > 100 ? ' sticky' : ''}`}>
+            <Navbar expand="lg" className="ftco_navbar arja-navbar-light site-navbar-target">
                 <Container>
                     <Navbar.Brand href="/">Arjun Taneja</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

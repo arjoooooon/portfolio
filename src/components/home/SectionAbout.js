@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap"
 
 const SectionAbout = () => {
     return (
-        <section className="ftco-about ftco-counter img ftco-section" id="about-section">
+        <section className="arja-about arja-counter img arja-section" id="about-section">
             <Container>
                 <div className="row d-flex">
                     <div className="col-md-6 col-lg-5 d-flex">
@@ -34,7 +34,7 @@ const SectionAbout = () => {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div data-aos='fade-up' data-aos-delay="400" className="media block-6 services d-block ftco-animate">
+                                <div data-aos='fade-up' data-aos-delay="400" className="media block-6 services d-block arja-animate">
                                     <div className="icon"><span className="flaticon-analysis"></span></div>
                                     <div className="media-body">
                                         <h3 className="heading mb-3">Web Application</h3>

@@ -1,14 +1,14 @@
-.ftco-footer {
+.arja-footer {
   font-size: 16px;
   background: $primary;
   padding: 7em 0;
   z-index: 0;
 
-  .ftco-footer-logo {
+  .arja-footer-logo {
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
-  .ftco-footer-widget {
+  .arja-footer-widget {
     h2 {
       font-weight: normal;
       color: $white;
@@ -46,14 +46,14 @@
       color: $white;
     }
   }
-  .ftco-heading-2 {
+  .arja-heading-2 {
     font-size: 17px;
     font-weight: 400;
     color: $black;
   }
 }
 
-.ftco-footer-social {
+.arja-footer-social {
   li {
     list-style: none;
     margin: 0 10px 0 0;
@@ -92,7 +92,7 @@
   }
 }
 .media {
-  .ftco-icon {
+  .arja-icon {
     width: 100px;
     span {
       color: $primary;

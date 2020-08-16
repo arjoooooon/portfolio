@@ -36,7 +36,7 @@ header {
 .sticky-wrapper {
   top: -200px;
   transition: all 0.3s ease;
-  &.ftco-navbar-light {
+  &.arja-navbar-light {
     background: transparent !important;
     // padding-top: 30px;
     @include media-breakpoint-down(md) {

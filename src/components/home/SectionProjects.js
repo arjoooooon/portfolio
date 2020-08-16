@@ -12,7 +12,7 @@ class SectionProjects extends React.Component {
     render() {
         const { data } = this.props
         return (
-            <section className="ftco-section ftco-project" id="projects-section">
+            <section className="arja-section arja-project" id="projects-section">
                 <div className="container">
                     <div className="row justify-content-center pb-5">
                         <div data-aos='fade-up' className="col-md-12 heading-section text-center">

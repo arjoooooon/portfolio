@@ -3,7 +3,7 @@ import pic1 from "../../assets/images/about.jpg"
 
 const SectionContact = () => {
     return (
-        <section className="ftco-section contact-section ftco-no-pb" id="contact-section">
+        <section className="arja-section contact-section arja-no-pb" id="contact-section">
             <div className="container">
                 <div className="row justify-content-center mb-5 pb-3">
                     <div data-aos='fade-up' className="col-md-7 heading-section text-center">

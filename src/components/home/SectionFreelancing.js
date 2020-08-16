@@ -2,7 +2,7 @@ import React from "react"
 
 const SectionFreelancing = () => {
     return (
-        <section className="ftco-section ftco-hireme">
+        <section className="arja-section arja-hireme">
             <div className="container">
                 <div className="row">
                     <div data-aos='fade-up' className="col-md-8 col-lg-9 d-flex align-items-center">
