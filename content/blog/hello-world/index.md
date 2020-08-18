@@ -3,6 +3,7 @@ title: Hello World
 date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
 thumbnail: "image_1.jpg"
+category: "Interior Design"
 ---
 
 This is my first post on my new fake blog! How exciting!

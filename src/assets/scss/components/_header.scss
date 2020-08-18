@@ -1,8 +1,4 @@
 header {
-  width: 100%;
-  color: white;
-  background-color: rebeccapurple;
-
   .container {
     display: flex;
     justify-content: space-between;
@@ -32,6 +28,13 @@ header {
     font-weight: bold;
     margin: 0;
   }
+}
+.header-blog{
+  width: 100%;
+  color: #000;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
 }
 .sticky-wrapper {
   top: -200px;
