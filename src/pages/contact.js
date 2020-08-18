@@ -7,6 +7,7 @@ import twitter from '../assets/SVG/twitter.svg';
 import github from '../assets/SVG/github.svg';
 import email from '../assets/SVG/email.svg';
 import Layout from '../components/layout';
+import { Container } from 'react-bootstrap';
 
 const Contact = () => {
 
@@ -17,7 +18,7 @@ const Contact = () => {
                 <meta name="description" content="Feel free to get in touch! I'm open to talking about cool, new ideas––or to just have an interesting conversation." />
                 <meta name="keywords" content="contact, instagram, linkedin, email, twitter, github" />
             </Helmet>
-            <div className={styles.contactContainer}>
+            <Container className={styles.contactContainer}>
                 <a href="mailto:hello@arjuntaneja.com" target="_blank" className={styles.mailLink}>hello@arjuntaneja.com</a>
                 <div className={styles.iconContainer}>
                     <a href="https://www.linkedin.com/in/arjun-taneja-801012a2/" target="_blank" className={styles.iconLink}>
@@ -37,7 +38,7 @@ const Contact = () => {
                     </a>
                 </div>
 
-            </div>
+            </Container>
         </Layout>
     );
 }

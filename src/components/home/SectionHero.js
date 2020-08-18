@@ -27,9 +27,9 @@ const SectionHero = () => {
                 <div className="text">
                   <span className="subheading">Hello</span>
                   <h1 className="mb-4 mt-3">
-                    I'm <span>Niko Bochser</span>
+                    I'm <span>Arjun</span>
                   </h1>
-                  <h2 className="mb-4">A Freelance Web Developer</h2>
+                  <h2 className="mb-4">A high school student at UWCSEA in Singapore. I am a curious person who loves to use technology to build things with the goal of helping people and solving problems.</h2>
                   <p>
                     <a href="#" className="btn-custom">
                       Hire me
