@@ -233,7 +233,7 @@ header {
       }
       @include media-breakpoint-down(md) {
         .navbar-collapse {
-          background: rgba(255, 255, 255, 0.5);
+          background: rgba(255, 255, 255, 0.9);
         }
       }
     }
@@ -320,7 +320,7 @@ header {
     left: 0;
     top: 80px;
     z-index: 999;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     text-align: center;
 
     opacity: 0;
