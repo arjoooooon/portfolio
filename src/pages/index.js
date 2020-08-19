@@ -1,6 +1,4 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { Container } from "react-bootstrap"
 import {
   SectionAbout,
   SectionSkill,
@@ -10,7 +8,6 @@ import {
   SectionBlogs,
   SectionHero,
 } from "../components/home"
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AOS from "aos"
