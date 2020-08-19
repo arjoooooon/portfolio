@@ -12,9 +12,9 @@ const Footer = () => {
                             <h2 className="arja-heading-2">Lets talk about</h2>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                             <ul className="arja-footer-social list-unstyled float-md-left float-lft mt-5">
-                                <li><a href="#"><Icon icon="twitter" size={26} /></a></li>
-                                <li><a href="#"><Icon icon="facebook" size={26} /></a></li>
-                                <li><a href="#"><Icon icon="instagram" size={26} /></a></li>
+                                <li><a href="https://twitter.com/badpotatoman" target="_blank" rel="noopener noreferrer"><Icon icon="twitter" size={26} /></a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer"><Icon icon="facebook" size={26} /></a></li>
+                                <li><a href="https://www.instagram.com/arjoooooon/" target="_blank" rel="noopener noreferrer"><Icon icon="instagram" size={26} /></a></li>
                             </ul>
                         </div>
                     </div>

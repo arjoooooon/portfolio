@@ -25,7 +25,7 @@ const PageProject = ({ data }) => {
         <Layout>
             <SEO title="Projects" />
             <section className="arja-section arja-project" id="projects-section">
-                <div className="container">
+                <Container>
                     <div className="row justify-content-center pb-5">
                         <div data-aos='fade-up' className="col-md-12 heading-section text-center">
                             <span className="subheading">Accomplishments</span>
@@ -47,7 +47,7 @@ const PageProject = ({ data }) => {
                             const thumbnail = node.frontmatter.thumbnail ? node.frontmatter.thumbnail.publicURL : ''
                             return (
                                 <div className="project" key={index}>
-                                    <div data-aos='fade-up' className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
+                                    <div data-aos='fade-up' data-aos-delay={index * 200} className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
                                         <div><img src={thumbnail} alt={title} /></div>
                                         <div className="overlay"></div>
                                         <div className="text text-center p-4">
@@ -59,7 +59,7 @@ const PageProject = ({ data }) => {
                             );
                         })}
                     </Masonry>
-                </div>
+                </Container>
             </section>
         </Layout>
     );

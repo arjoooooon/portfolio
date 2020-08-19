@@ -35,7 +35,7 @@ class SectionProjects extends React.Component {
                             const thumbnail = node.frontmatter.thumbnail ? node.frontmatter.thumbnail.publicURL : ''
                             return (
                                 <div className="project" key={index}>
-                                    <div data-aos='fade-up' className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
+                                    <div data-aos='fade-up' data-aos-delay={index * 200} className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
                                         <div className="project-thumb"><img src={thumbnail} alt={title} /></div>
                                         <div className="overlay"></div>
                                         <div className="text text-center p-4">

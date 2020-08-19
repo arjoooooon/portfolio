@@ -18,16 +18,11 @@ const ProjectTemplate = ({ data, pageContext, location }) => {
       />
       <Container>
         <article>
-          <header>
-            <h1>
-              {post.frontmatter.title}
-            </h1>
-            <p>
-              {post.frontmatter.date}
-            </p>
-          </header>
+          <div className="header-blog">
+            <h2 class="mb-3">{post.frontmatter.title}</h2>
+          </div>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr/>
+          <hr />
           <footer>
             <Bio />
           </footer>
