@@ -40,8 +40,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <Container>
           <div className="row no-gutters slider-text align-items-end justify-content-center">
             <div className="col-md-9 pb-5 text-center">
-              <h1 className="mb-3 bread">{post.frontmatter.title}</h1>
-              <p className="breadcrumbs"><span className="mr-2"><a href="/">Home <i className="ion-ios-arrow-forward"></i></a></span> <span className="mr-2"><a href="/blog">Blog <i className="ion-ios-arrow-forward"></i></a></span> <span>{post.frontmatter.title}</span></p>
+              <h1 className="mb-3 bread" style={{backgroundColor: 'white', paddingTop: 10, paddingBottom: 10}}>{post.frontmatter.title}</h1>
+              <p className="breadcrumbs"><span className="mr-2" style={{backgroundColor: 'white'}}><a href="/">Home <i className="ion-ios-arrow-forward"></i></a></span> <span className="mr-2" style={{backgroundColor: 'white'}}><a href="/blog">Blog <i className="ion-ios-arrow-forward"></i></a></span></p>
             </div>
           </div>
         </Container>

@@ -45,14 +45,6 @@ const SectionAbout = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos='fade-up' data-aos-delay="600" className="counter-wrap d-flex mt-md-3">
-                            <div className="text p-4 pr-5 bg-primary">
-                                <p className="mb-0">
-                                    <span className="number" data-number="200">200</span>
-                                    <span>Finished Projects</span>
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </Container>

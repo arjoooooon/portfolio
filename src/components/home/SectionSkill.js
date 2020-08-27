@@ -13,8 +13,7 @@ const SectionSkill = () => {
             <span className="subheading">Skills</span>
             <h2 className="mb-4">My Skills</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
+                What I've learned over my Programming journey
             </p>
           </div>
         </div>
@@ -25,7 +24,7 @@ const SectionSkill = () => {
               data-aos-delay="200"
               className="progress-wrap"
             >
-              <h3>Photoshop</h3>
+              <h3>Python 3</h3>
               <ProgressBar now={75} label="75%" />
             </div>
           </div>
@@ -35,7 +34,7 @@ const SectionSkill = () => {
               data-aos-delay="400"
               className="progress-wrap"
             >
-              <h3>jQuery</h3>
+              <h3>Tensorflow</h3>
               <ProgressBar now={60} label="60%" />
             </div>
           </div>
@@ -45,8 +44,8 @@ const SectionSkill = () => {
               data-aos-delay="600"
               className="progress-wrap"
             >
-              <h3>HTML5</h3>
-              <ProgressBar now={85} label="85%" />
+              <h3>Javascript</h3>
+              <ProgressBar now={80} label="85%" />
             </div>
           </div>
           <div className="col-md-6 animate-box">
@@ -55,7 +54,7 @@ const SectionSkill = () => {
               data-aos-delay="800"
               className="progress-wrap"
             >
-              <h3>CSS3</h3>
+              <h3>C/C++</h3>
               <ProgressBar now={90} label="90%" />
             </div>
           </div>
@@ -65,7 +64,7 @@ const SectionSkill = () => {
               data-aos-delay="1000"
               className="progress-wrap"
             >
-              <h3>WordPress</h3>
+              <h3>Java</h3>
               <ProgressBar now={70} label="70%" />
             </div>
           </div>
@@ -75,7 +74,7 @@ const SectionSkill = () => {
               data-aos-delay="1200"
               className="progress-wrap"
             >
-              <h3>SEO</h3>
+              <h3>UNIX/Shell</h3>
               <ProgressBar now={80} label="80%" />
             </div>
           </div>
@@ -106,11 +105,11 @@ const SectionSkill = () => {
               </span>
               <div className="desc">
                 <h3 className="mb-5">
-                  <a href="#">Explore</a>
+                  <a href="#">Web Development</a>
                 </h3>
-                <h4>Design Sprints</h4>
-                <h4>Product Strategy</h4>
-                <h4>UX Strategy</h4>
+                <h4>HTML5</h4>
+                <h4>Javascript</h4>
+                <h4>React</h4>
               </div>
             </div>
           </div>
@@ -125,11 +124,11 @@ const SectionSkill = () => {
               </span>
               <div className="desc">
                 <h3 className="mb-5">
-                  <a href="#">Create</a>
+                  <a href="#">Game Development</a>
                 </h3>
-                <h4>Information</h4>
-                <h4>UX/UI Design</h4>
-                <h4>Branding</h4>
+                <h4>Java</h4>
+                <h4>Lua/Love2D</h4>
+                <h4>C/SDL</h4>
               </div>
             </div>
           </div>
@@ -144,11 +143,11 @@ const SectionSkill = () => {
               </span>
               <div className="desc">
                 <h3 className="mb-5">
-                  <a href="#">Learn</a>
+                  <a href="#">Computing</a>
                 </h3>
-                <h4>Prototyping</h4>
-                <h4>User Testing</h4>
-                <h4>UI Testing</h4>
+                <h4>C/C++ Algorithms</h4>
+                <h4>MATLAB Data Visulization</h4>
+                <h4>Tensorflow</h4>
               </div>
             </div>
           </div>

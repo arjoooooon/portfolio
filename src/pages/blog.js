@@ -29,8 +29,8 @@ const PageBlog = ({ data }) => {
           <div className="row justify-content-center pb-5">
             <div data-aos='fade-up' className="col-md-12 heading-section text-center">
               <span className="subheading">Accomplishments</span>
-              <h2 className="mb-4">Our Blog</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+              <h2 className="mb-4">My Blog</h2>
+              <p>Some of my thoughts and feelings</p>
             </div>
           </div>
           <Masonry
@@ -45,6 +45,7 @@ const PageBlog = ({ data }) => {
               const title = node.frontmatter.title || node.fields.slug
               const slug = node.fields.slug
               const thumbnail = node.frontmatter.thumbnail ? node.frontmatter.thumbnail.publicURL : ''
+              const category = node.frontmatter.category || "Academics"
               return (
                 <div className="project" key={index}>
                   <div data-aos='fade-up' data-aos-delay={index * 200} className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
@@ -52,7 +53,7 @@ const PageBlog = ({ data }) => {
                     <div className="overlay"></div>
                     <div className="text text-center p-4">
                       <h3><a href={slug}>{title}</a></h3>
-                      <span>Web Design</span>
+                      <span>{category}</span>
                     </div>
                   </div>
                 </div>

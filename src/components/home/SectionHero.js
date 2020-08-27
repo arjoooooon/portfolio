@@ -1,7 +1,7 @@
 import React from "react"
 import { Carousel, Container } from "react-bootstrap"
 import Icon from '../Icon'
-import slide1 from "../../assets/images/bg_1.jpg"
+import slide1 from "../../assets/images/resized2.jpg"
 import slide2 from "../../assets/images/bg_2.jpg"
 
 const SectionHero = () => {
@@ -18,23 +18,12 @@ const SectionHero = () => {
                 <div className="overlay"></div>
               </div>
               <div className="one-forth d-flex  align-items-center">
-                <a
-                  href="https://vimeo.com/45830194"
-                  className="icon-video popup-vimeo d-flex justify-content-center align-items-center"
-                >
-                  <Icon icon="play3" className="play" size={26} />
-                </a>
                 <div className="text">
                   <span className="subheading">Hello</span>
                   <h1 className="mb-4 mt-3">
                     I'm <span>Arjun</span>
                   </h1>
-                  <h2 className="mb-4">A high school student at UWCSEA in Singapore. I am a curious person who loves to use technology to build things with the goal of helping people and solving problems.</h2>
-                  <p>
-                    <a href="#" className="btn-custom">
-                      Hire me
-                    </a>
-                  </p>
+                  <h2 className="mb-4" style={{backgroundColor: 'white', paddingBottom: 10, paddingTop: 10}}>A high school student at UWCSEA in Singapore. I am a curious person who loves to use technology to build things with the goal of helping people and solving problems.</h2>
                 </div>
               </div>
             </div>
@@ -50,21 +39,10 @@ const SectionHero = () => {
                 <div className="overlay"></div>
               </div>
               <div className="one-forth d-flex align-items-center">
-                <a
-                  href="https://vimeo.com/45830194"
-                  className="icon-video popup-vimeo d-flex justify-content-center align-items-center"
-                >
-                  <Icon icon="play3" className="play" size={26} />
-                </a>
                 <div className="text">
                   <h1 className="mb-4 mt-3">
-                    I'm a <span>web designer</span> from Scotland
+                    I'm a <span>High School Student</span> in Singapore
                   </h1>
-                  <p>
-                    <a href="#" className="btn-custom">
-                      Hire me
-                    </a>
-                  </p>
                 </div>
               </div>
             </div>

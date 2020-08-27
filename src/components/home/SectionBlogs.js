@@ -28,8 +28,6 @@ const SectionBlogs = ({ data }) => {
                                         <div className="d-flex align-items-center mb-3 meta">
                                             <p className="mb-0">
                                                 <span className="mr-2">{node.frontmatter.date}</span>
-                                                <a href={slug} className="mr-2">Admin</a>
-                                                <a href={slug} className="meta-chat"><span className="icon-chat"></span> 3</a>
                                             </p>
                                         </div>
                                         <h3 className="heading"><Link style={{ boxShadow: `none` }} to={node.fields.slug}>

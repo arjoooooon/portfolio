@@ -30,7 +30,6 @@ const HomeIndex = ({ data, location }) => {
       <SectionHero />
       <SectionAbout />
       <SectionSkill />
-      <SectionFreelancing />
       <SectionProjects data={projects} />
       <SectionBlogs data={posts} />
       <SectionContact />
