@@ -156,8 +156,6 @@
             font-size: 20px;
             color: $black;
           }
-          span.play {
-          }
         }
         .subheading {
           color: $black;
@@ -602,14 +600,10 @@ textarea.form-control {
 
 //ABOUT
 .about-author {
-  img {
-  }
   .desc {
     h3 {
       font-size: 24px;
     }
-  }
-  .bio {
   }
 }
 
@@ -980,15 +974,7 @@ textarea.form-control {
 
 .block-6 {
   margin-bottom: 40px;
-  .icon {
-    span {
-      &:before {
-      }
-    }
-  }
   .media-body {
-    .heading {
-    }
     p {
       font-size: 16px;
     }
@@ -1036,8 +1022,6 @@ textarea.form-control {
       a {
         color: $white;
       }
-      span {
-      }
     }
   }
   .contact-form {
@@ -1055,8 +1039,6 @@ textarea.form-control {
     outline: none !important;
     box-shadow: none !important;
     font-size: 15px;
-  }
-  #map {
   }
 }
 

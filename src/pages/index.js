@@ -2,7 +2,6 @@ import React from "react"
 import {
   SectionAbout,
   SectionSkill,
-  SectionFreelancing,
   SectionContact,
   SectionProjects,
   SectionBlogs,

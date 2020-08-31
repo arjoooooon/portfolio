@@ -1,5 +1,9 @@
-  
 @import "~bootstrap/scss/bootstrap";
-
+@font-face {
+  font-family: Proxima;
+  src: url("../fonts/proxima_nova_thin.otf");
+  font-weight: normal;
+  font-display: swap;
+}
 @import "./components";
 @import "./pages";

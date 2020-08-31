@@ -6,7 +6,8 @@
   justify-content: center;
   font-size: 4em;
   color: white;
-  font-family: proxima nova thin;
+  font-family: "Proxima";
+  font-weight: normal;
 }
 
 .icon-container {
@@ -28,29 +29,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: ease 0.1s;
+  transition: all 0.3s ease;
 }
 
 .icon {
   width: 30px;
   height: 30px;
-  transition: ease 0.1s;
   backface-visibility: hidden;
 }
 
 .icon-link:hover {
-  width: 70px;
-  height: 70px;
-  margin: -5px;
+  transform: scale(1.4);
   backface-visibility: hidden;
   color: #fff;
-}
-
-.icon-link:hover > img.icon {
-  width: 35px;
-  height: 35px;
-  margin: -2.5px;
-  backface-visibility: hidden;
 }
 
 .mail-link {
@@ -58,7 +49,9 @@
   color: #000;
   position: relative;
   z-index: 1;
-  font-family: monospace;
+  font-family: Proxima;
+  transition: color 0.3s ease-in;
+  font-weight: normal;
 }
 
 .mail-link::after {
