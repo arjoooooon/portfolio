@@ -35,7 +35,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <section className="hero-wrap hero-wrap-2" style={{ backgroundImage: `url(${post.frontmatter.thumbnail.publicURL})` }}>
+      <section className="hero-wrap hero-wrap-2" style={{ backgroundImage: `url(${(post.frontmatter.thumbnail)? post.frontmatter.thumbnail.publicURL : ""})` }}>
         <div className="overlay"></div>
         <Container>
           <div className="row no-gutters slider-text align-items-end justify-content-center">
@@ -113,7 +113,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                   {
                     relativePost.edges.map((itm, index) => (
                       <div className="block-21 mb-4 d-flex" key={index}>
-                        <a className="blog-img mr-4"><img src={itm.node.frontmatter.thumbnail.publicURL} alt={itm.node.frontmatter.title} /></a>
+                        <a className="blog-img mr-4"><img src={(itm.node.frontmatter.thumbnail)? itm.node.frontmatter.thumbnail.publicURL : ""} alt={itm.node.frontmatter.title} /></a>
                         <a href={itm.node.fields.slug} className="text">
                           <h3 className="heading">{itm.node.frontmatter.title}</h3>
                           <div className="meta">
