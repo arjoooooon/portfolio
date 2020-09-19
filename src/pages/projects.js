@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Masonry from 'react-masonry-component';
 import SEO from "../components/seo"
 import AOS from "aos"
+import { graphql } from 'gatsby';
 import "aos/dist/aos.css"
 
 const masonryOptions = {
