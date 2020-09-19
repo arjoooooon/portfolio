@@ -10,11 +10,11 @@ const Footer = () => {
                     <div className="col-md">
                         <div className="arja-footer-widget mb-4">
                             <h2 className="arja-heading-2">Lets talk about</h2>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>Here are some of my media...not that I post much anyway. But I would appreciate a follow nonetheless.</p>
                             <ul className="arja-footer-social list-unstyled float-md-left float-lft mt-5">
                                 <li><a href="https://twitter.com/badpotatoman" target="_blank" rel="noopener noreferrer"><Icon icon="twitter" size={26} /></a></li>
-                                <li><a href="#" target="_blank" rel="noopener noreferrer"><Icon icon="facebook" size={26} /></a></li>
                                 <li><a href="https://www.instagram.com/arjoooooon/" target="_blank" rel="noopener noreferrer"><Icon icon="instagram" size={26} /></a></li>
+                                <li><a href="https://www.github.com/arjoooooon/" target="_blank" rel="noopener noreferrer"><Icon icon="github" size={26} /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -27,18 +27,6 @@ const Footer = () => {
                                 <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Services</a></li>
                                 <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Projects</a></li>
                                 <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-md">
-                        <div className="arja-footer-widget mb-4">
-                            <h2 className="arja-heading-2">Services</h2>
-                            <ul className="list-unstyled list-link">
-                                <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Web Design</a></li>
-                                <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Web Development</a></li>
-                                <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Business Strategy</a></li>
-                                <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Data Analysis</a></li>
-                                <li><a href="#"><Icon icon="arrow-right" className="mr-2" size={16} />Graphic Design</a></li>
                             </ul>
                         </div>
                     </div>

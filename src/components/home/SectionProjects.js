@@ -17,8 +17,8 @@ class SectionProjects extends React.Component {
                     <div className="row justify-content-center pb-5">
                         <div data-aos='fade-up' className="col-md-12 heading-section text-center">
                             <span className="subheading">Accomplishments</span>
-                            <h2 className="mb-4">Our Projects</h2>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                            <h2 className="mb-4">My Projects</h2>
+                            <p>Some of the things that I've made over the past few years</p>
                         </div>
                     </div>
                     <Masonry

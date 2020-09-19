@@ -2,7 +2,7 @@ import React from "react"
 import { navigate } from "gatsby"
 import axios from "axios"
 import validator from "email-validator"
-import pic1 from "../../assets/images/about.jpg"
+import pic1 from "../../assets/images/arjunfooter.png";
 
 const LoadingSubmit = () => (
   <div className="contact-loading">
@@ -32,8 +32,7 @@ const SectionContact = ({
             <span className="subheading">Contact</span>
             <h2 className="mb-4">Contact Me</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
+                Don't be afraid––I don't bite!
             </p>
           </div>
         </div>

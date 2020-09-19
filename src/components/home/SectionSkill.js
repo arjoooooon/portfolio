@@ -86,11 +86,7 @@ const SectionSkill = () => {
             className="col-md-12 heading-section text-center"
           >
             <span className="subheading">What I Do</span>
-            <h2 className="mb-4">Strategy, design and a bit of magic</h2>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
-            </p>
+            <h2 className="mb-4">Computers, I guess</h2>
           </div>
         </div>
         <div className="row">

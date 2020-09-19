@@ -9,8 +9,8 @@ const SectionBlogs = ({ data }) => {
                 <div className="row justify-content-center mb-5 pb-5">
                     <div data-aos='fade-up' className="col-md-7 heading-section text-center">
                         <span className="subheading">Blog</span>
-                        <h2 className="mb-4">Our Blog</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        <h2 className="mb-4">My Blog</h2>
+                        <p>Some of my thoughts and feelings about miscellaneous things</p>
                     </div>
                 </div>
                 <div className="row d-flex">
