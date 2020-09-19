@@ -2,7 +2,7 @@
 title: Exercise in Lockdown
 date: "2020-05-06T23:46:37.121Z"
 description: How I stay fit even with social distancing
-thumbnail: ""
+thumbnail: "exercise.jpg"
 category: "Activity"
 ---
 

@@ -2,7 +2,7 @@
 title: Fitness with Hougang Care Center
 date: "2020-02-04T22:40:32.169Z"
 description: Our first interactions with the members of Hougang Care center
-thumbnail: "Blog_photo4.jpg"
+thumbnail: "hougang.jpg"
 category: "Landscape Design"
 ---
 

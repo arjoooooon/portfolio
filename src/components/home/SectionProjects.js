@@ -40,7 +40,6 @@ class SectionProjects extends React.Component {
                                         <div className="overlay"></div>
                                         <div className="text text-center p-4">
                                             <h3><a href={slug}>{title}</a></h3>
-                                            <span>Web Design</span>
                                         </div>
                                     </div>
                                 </div>

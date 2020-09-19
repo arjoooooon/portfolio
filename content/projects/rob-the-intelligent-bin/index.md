@@ -3,7 +3,7 @@ title: ROB | The Intelligent Bin
 date: "2015-05-28T22:40:32.169Z"
 description: A bin that uses computer vision and artificial intelligence to automatically segregate trash based on materials composition.
 url: http://sgsmartbin.com
-thumbnail: "image_3.jpg"
+thumbnail: "logo-ROB.png"
 technology: ["AI - powered (Tensorflow, Keras)","Cloud (Google Colab)"]
 ---
 

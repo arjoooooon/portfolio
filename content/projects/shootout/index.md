@@ -3,7 +3,7 @@ title: Shootout
 date: "2015-05-06T23:46:37.121Z"
 description: A video game that I programmed during my summer course at Stanford University. It is a top down shooter that implements a lot of projectile mechanics and physics.
 url: http://github.com/arjoooooon
-thumbnail: "image_2.jpg"
+thumbnail: "logo_ShootOut.png"
 technology: [
     "Lua
     ",
