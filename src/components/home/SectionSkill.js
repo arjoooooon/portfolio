@@ -86,7 +86,7 @@ const SectionSkill = () => {
             className="col-md-12 heading-section text-center"
           >
             <span className="subheading">What I Do</span>
-            <h2 className="mb-4">Computers, I guess</h2>
+            <h2 className="mb-4">Programming experience</h2>
           </div>
         </div>
         <div className="row">
@@ -104,7 +104,7 @@ const SectionSkill = () => {
                   <a href="#">Web Development</a>
                 </h3>
                 <h4>HTML5</h4>
-                <h4>Javascript</h4>
+                <h4>JavaScript</h4>
                 <h4>React</h4>
               </div>
             </div>

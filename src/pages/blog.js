@@ -49,12 +49,9 @@ const PageBlog = ({ data }) => {
               return (
                 <div className="project" key={index}>
                   <div data-aos='fade-up' data-aos-delay={index * 200} className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
-                    <div className="project-thumb"><img src={thumbnail} alt={title} /></div>
-                    <div className="overlay"></div>
-                    <div className="text text-center p-4">
-                      <h3><a href={slug}>{title}</a></h3>
-                      <span>{category}</span>
-                    </div>
+                    <a href={slug}>
+                        <div className="project-thumb"><img src={thumbnail} alt={title} /></div>
+                    </a>
                   </div>
                 </div>
               );

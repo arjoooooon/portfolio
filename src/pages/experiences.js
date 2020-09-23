@@ -10,9 +10,14 @@ import anime from 'animejs/lib/anime.es';
 import devfest from '../assets/images/devfest.png';
 import blank from '../assets/images/blank.png';
 import smartbindiagram from '../assets/images/smartbindiagram.png';
-import agritech from '../assets/images/agritech.png';
-import tedtalk from '../assets/images/tedtalk.jpg'
+import agritech from '../assets/images/agritech2.png';
+import tedtalk from '../assets/images/tedtalk.jpg';
+import artofcs from '../assets/images/artofcs.jpg';
+import munpic from '../assets/images/munpic.jpg';
 import Layout from '../components/layout';
+import compProgramming from '../assets/images/competitiveprogramming.png';
+import guitar from '../assets/images/guitar.jpg';
+import japanese from '../assets/images/japaneselanguage.png';
 //-------------------IMAGE IMPORTS----------------------------
 
 let builderText = [
@@ -47,7 +52,7 @@ let builderText = [
 let leaderText = [
     {
         align: 'right',
-        uri: blank,
+        uri: artofcs,
         title: 'Art of Computer Science',
         subtitle: '2018-2021',
         text: "In Grade 11 and 12, I co-led an activity called “The Art of Computer Science”. I taught a class of around 20 students programming fundamentals in Java. Teaching this class was a rewarding experience for me as I learned how to organise and articulate complex concepts in an approachable way.",
@@ -56,7 +61,7 @@ let leaderText = [
     },
     {
         align: 'left',
-        uri: blank,
+        uri: compProgramming,
         title: "Comptetitive Programming",
         subtitle: '2019-2020',
         text: 'I was the leader of my school team in the Singaporean National Olympiad in Informatics (NOI). I organised meetings and training sessions. We learned a lot about complex data structures and algorithms, but more importantly, improved the way in which we approached complex problems.',
@@ -74,7 +79,7 @@ let speakerText = [
     },
     {
         align: 'right',
-        uri: blank,
+        uri: munpic,
         title: 'Model United Nations',
         subtitle: '2017-2020',
         text: "Over the past few years, I have had the privilege of taking on many roles in my school’s Model United Nations club (debate). I have been a student, learning about the tenets of public speaking; an administrator, organizing conferences and liaising with other schools; and a teacher, teaching students about public speaking principles.",
@@ -85,7 +90,7 @@ let speakerText = [
 let learnerText = [
     {
         align: 'right',
-        uri: blank,
+        uri: japanese,
         title: 'Japanese language',
         subtitle: '2018-2020',
         text: "Two years ago, out of an interest for anime and for Japanese culture in general, I decided to embark on a Japanese language learning journey. Today, I feel like I have gained a greater appreciation not only of the Japanese language and culture, but also languages in general. It always amazes me how language changes the way that we are able to express ourselves.",
@@ -94,7 +99,7 @@ let learnerText = [
     },
     {
         align: 'left',
-        uri: blank,
+        uri: guitar,
         title: 'Music',
         subtitle: '2017-2020',
         text: "I would say that music has become a large part of how I identify myself. I play two instruments–the piano and the guitar–and I take great pleasure in performing, composing, and listening to music. My favourite genre is Progressive Metal, though I also enjoy listening to Rock, Electronic, and Classical music as well.",

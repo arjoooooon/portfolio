@@ -18,7 +18,7 @@ class SectionProjects extends React.Component {
                         <div data-aos='fade-up' className="col-md-12 heading-section text-center">
                             <span className="subheading">Accomplishments</span>
                             <h2 className="mb-4">My Projects</h2>
-                            <p>Some of the things that I've made over the past few years</p>
+                            <p>Things that I've built over the past few years</p>
                         </div>
                     </div>
                     <Masonry
@@ -36,11 +36,7 @@ class SectionProjects extends React.Component {
                             return (
                                 <div className="project" key={index}>
                                     <div data-aos='fade-up' data-aos-delay={index * 200} className="image-element-class  img img-2 d-flex justify-content-center align-items-center">
-                                        <div className="project-thumb"><img src={thumbnail} alt={title} /></div>
-                                        <div className="overlay"></div>
-                                        <div className="text text-center p-4">
-                                            <h3><a href={slug}>{title}</a></h3>
-                                        </div>
+                                        <a href={slug} className="project-thumb"><img src={thumbnail} alt={title} /></a>
                                     </div>
                                 </div>
                             );

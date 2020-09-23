@@ -118,8 +118,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                           <h3 className="heading">{itm.node.frontmatter.title}</h3>
                           <div className="meta">
                             <div><span className="icon-calendar"></span> March 12, 2019</div>
-                            <div><span className="icon-person"></span> Admin</div>
-                            <div><span className="icon-chat"></span> 19</div>
                           </div>
                         </a>
                       </div>

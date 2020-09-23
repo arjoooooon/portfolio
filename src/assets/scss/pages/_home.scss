@@ -1310,3 +1310,11 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+@media screen and (max-width: 480px){
+    .hero-text{
+        background-color: rgba(0,0,0,0.2);
+        padding-top: 10%;
+        top: -3%
+    }
+}

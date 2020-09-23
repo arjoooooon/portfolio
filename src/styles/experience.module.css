@@ -8,6 +8,7 @@
     display: inline-block;
     width: 40vw;
     line-height: 1.8em;
+    font-family: 'proxima nova';
 }
 
 .image{
@@ -20,6 +21,7 @@
     width: 40vw;
     text-align: right;
     line-height: 1.8em;
+    font-family: 'proxima nova';
 }
 
 .wrapper{

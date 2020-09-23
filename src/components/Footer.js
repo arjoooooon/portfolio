@@ -35,8 +35,6 @@ const Footer = () => {
                             <h2 className="arja-heading-2">Have a Questions?</h2>
                             <div className="block-23 mb-3">
                                 <ul>
-                                    <li><Icon icon="location2" className="mr-2" size={16} /><span className="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                                    <li><a href="#"><Icon icon="phone" className="mr-2" size={16} /><span className="text">+2 392 3929 210</span></a></li>
                                     <li><a href="mailto:hello@arjuntaneja.com"><Icon icon="mail4" className="mr-2" size={16} /><span className="text">hello@arjuntaneja.com</span></a></li>
                                 </ul>
                             </div>

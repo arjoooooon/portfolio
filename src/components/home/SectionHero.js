@@ -17,12 +17,12 @@ const SectionHero = () => {
                 <div className="overlay"></div>
               </div>
               <div className="one-forth d-flex  align-items-center">
-                <div className="text">
+                <div className="text hero-text">
                   <span className="subheading">Hello</span>
                   <h1 className="mb-4 mt-3">
                     I'm <span>Arjun</span>
                   </h1>
-                  <h2 className="mb-4" style={{paddingBottom: 10, paddingTop: 10}}>A high school student at UWCSEA in Singapore. I am a curious person who loves to use technology to build things with the goal of helping people and solving problems.</h2>
+                  <h2 className="mb-4" style={{paddingBottom: 10, paddingTop: 10, paddingLeft: 10}}>A high school student at UWCSEA in Singapore. I am a curious person who loves to use technology to build things with the goal of helping people and solving problems.</h2>
                 </div>
               </div>
             </div>

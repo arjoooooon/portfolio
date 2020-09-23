@@ -16,7 +16,7 @@ const Layout = ({ location, title, children }) => {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main style={{fontFamily: 'proxima nova'}}>{children}</main>
       <Footer />
     </>
   )
