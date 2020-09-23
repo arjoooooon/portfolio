@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="col-md">
                         <div className="arja-footer-widget mb-4">
                             <h2 className="arja-heading-2">Lets talk about</h2>
-                            <p>Here are some of my media...not that I post much anyway. But I would appreciate a follow nonetheless.</p>
+                            <p>Here are some of my social media links. Follow me!</p>
                             <ul className="arja-footer-social list-unstyled float-md-left float-lft mt-5">
                                 <li><a href="https://twitter.com/badpotatoman" target="_blank" rel="noopener noreferrer"><Icon icon="twitter" size={26} /></a></li>
                                 <li><a href="https://www.instagram.com/arjoooooon/" target="_blank" rel="noopener noreferrer"><Icon icon="instagram" size={26} /></a></li>
