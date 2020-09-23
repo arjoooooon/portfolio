@@ -4,6 +4,7 @@ import Header from './Header'
 import Footer from './Footer'
 import { Container } from 'react-bootstrap';
 import "../assets/scss/app.scss"
+import '../styles/index.css'
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
