@@ -12,11 +12,16 @@ technology: [
   ]
 ---
 
-Wow! I love blogging so much already.
+Shootout is a top-down shooter game that I programmed during a pre-collegiate summer course at Stanford University.
 
-Did you know that "despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich."?
-([Wikipedia Link](https://en.wikipedia.org/wiki/Salted_duck_egg))
+![Image](./logo_ShootOut.png)
 
-Yeah, I didn't either.
+###Inspiration
+The game itself takes inspiration from other top-down shooter games that I have played–most notably, games like Hotline Miami and the Binding of Isaac. I wanted to replicate interesting aspects of projectile physics from both games, and I feel like I have been able to do so with the current version.
+
+###Technology stack
+- Lue
+- Love2D
+- Tiled
+
+####[Go check out the project on GitHub!](https://github.com/arjoooooon)
