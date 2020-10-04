@@ -6,11 +6,13 @@ import {
   SectionProjects,
   SectionBlogs,
   SectionHero,
+  SectionMention,
 } from "../components/home"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import Helmet from 'react-helmet';
 
 const HomeIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -25,13 +27,20 @@ const HomeIndex = ({ data, location }) => {
   })
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <SectionHero />
-      <SectionAbout />
-      <SectionSkill />
-      <SectionProjects data={projects} />
-      <SectionBlogs data={posts} />
-      <SectionContact />
+        <Helmet>
+            <title>Arjun Taneja: Tech Innovator, Speaker, Learner</title>
+            <meta name="description" content="Feel free to get in touch! I'm open to talking about cool, new ideas––or to just have an interesting conversation." />
+            <meta name="keywords" content="Smart Bin, Kanji Trainer, Arjun Taneja, Innovator, Speaker, High School, Technology" />
+        </Helmet>
+
+        <SEO title="All posts" />
+        <SectionHero />
+        <SectionAbout />
+        <SectionSkill />
+        <SectionProjects data={projects} />
+        <SectionMention />
+        <SectionBlogs data={posts} />
+        <SectionContact />
     </Layout>
   )
 }

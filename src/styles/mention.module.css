@@ -1,0 +1,27 @@
+.mention-wrapper{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mention-date{
+    color: gray;
+    margin: 3vh 0vw 0vh 3vw;
+    font-size: 0.8em;
+}
+
+.mention-paragraph{
+    margin: 1vh 3vw 3vh 3vw;
+    color: black;
+    box-shadow: 0 0 0 #000000;
+    text-decoration: none;
+    -webkit-transition: box-shadow ease 1s;
+}
+
+.mention-wrapper:hover{
+    -moz-box-shadow:     0 0 30px #222222;
+    -webkit-box-shadow:  0 0 30px #222222;
+    box-shadow:          0 0 30px #222222;
+    -webkit-transition: box-shadow ease 1s;
+}
