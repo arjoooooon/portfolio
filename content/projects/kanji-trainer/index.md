@@ -11,7 +11,12 @@ technology: ["Mobile Application for iOS & Android (React native)","AI - powered
 
 *Coming to the play store soon!*
 
-![Image](./demo.png)
+<figure class="video_container" style="display: flex; flex: 1; flex-direction: center; align-items: center; justify-content: center">
+  <video controls="true" allowfullscreen="true">
+    <source src="Kanji_Video.mp4" type="video/mp4">
+
+  </video>
+</figure>
 
 First, some context. Since 2018, I have been teaching myself Japanese as a hobby. I noticed that there are many tools that help with reading, listening, and speaking. Teaching Japanese writing, however, is still relegated to more traditional methods such as rote memorization. While this certainly works, it tends to be inefficient as a pen and paper is required to practice this way, and a teacher is often needed to correct mistakes.
 

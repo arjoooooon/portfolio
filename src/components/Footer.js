@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <p>
-                            Copyright &copy; {new Date().getFullYear()} All rights reserved | This template is made with <i className="icon-heart color-danger" aria-hidden="true"></i> by <a href="#" target="_blank">Arjun Taneja</a>
+                            Copyright &copy; {new Date().getFullYear()} All rights reserved | Arjun Taneja
                         </p>
                     </div>
                 </div>
